@@ -1,4 +1,4 @@
-<!-- gf-brief source=6f63631573ca6e9dac857cf0571399a93f46b7a53fc298200e235f52c3936b6c written=2026-11-24T05:08:46+03:00 -->
+<!-- gf-brief source=62e69e4e8bddfde44dfdf87904881ca7be28777268b96a9ca9c39faf8e2c560b written=2026-11-24T05:09:54+03:00 -->
 # Benatiger
 
 ## What it is
