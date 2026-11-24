@@ -1,0 +1,623 @@
+2026-11-23 21:41:26.688 xcodebuild[8150:28833587]  DVTFilePathFSEvents: Failed to start fs event stream.
+2026-11-23 21:41:26.885 xcodebuild[8150:28833564] [MT] DVTDeveloperPaths: Failed to get length of DARWIN_USER_CACHE_DIR from confstr(3), error = Error Domain=NSPOSIXErrorDomain Code=5 "Input/output error". Using NSCachesDirectory instead.
+2026-11-23 21:41:27.128 xcodebuild[8150:28833588] CoreSimulatorService connection became invalid.  Simulator services will no longer be available.
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project LuckyTiger.xcodeproj -scheme LuckyTiger -destination "generic/platform=iOS Simulator" -derivedDataPath QA/build CODE_SIGNING_ALLOWED=NO build
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+2026-11-23 21:41:27.180 xcodebuild[8150:28833564] [MT] DVTAssertions: Warning in DVTFrameworks/DVTFoundation/FileTypes/DVTFileDataTypeDetection.m:80
+Details:  detectedTypeIdentifier (com.apple.xml-property-list) does not conform to matchedTypeIdentifier in MagicFileDataTypeDetector extenson com.apple.property-list. When both are specified, this conformance is required unless overridden by setting allowNonInheritance. extension.identifier:Xcode.MagicFileDataTypeDetector.XMLPlist
+Object:   <DVTFileDataTypeDetectionMagicCache: 0x7ce7dc8d50>
+Method:   -initWithExtension:
+Thread:   <_NSMainThread: 0x104ca93f0>{number = 1, name = main}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+2026-11-23 21:41:27.181 xcodebuild[8150:28833564] [MT] DVTAssertions: Warning in DVTFrameworks/DVTFoundation/FileTypes/DVTFileDataTypeDetection.m:80
+Details:  detectedTypeIdentifier (com.apple.binary-property-list) does not conform to matchedTypeIdentifier in MagicFileDataTypeDetector extenson com.apple.property-list. When both are specified, this conformance is required unless overridden by setting allowNonInheritance. extension.identifier:Xcode.MagicFileDataTypeDetector.BinaryPlist
+Object:   <DVTFileDataTypeDetectionMagicCache: 0x7ce7dc9ad0>
+Method:   -initWithExtension:
+Thread:   <_NSMainThread: 0x104ca93f0>{number = 1, name = main}
+Please file a bug at https://feedbackassistant.apple.com with this warning message and any useful information you can provide.
+2026-11-23 21:41:27.195 xcodebuild[8150:28833632] Logging connecton invalid: <OS_xpc_error: <dictionary: 0x1eacd6600> { count = 1, transaction: 0, voucher = 0x0, contents =
+	"XPCErrorDescription" => <string: 0x1eacd6740> { string cache = 0x0, length = 18, contents = "Connection invalid" }
+}>
+2026-11-23 21:41:27.196 xcodebuild[8150:28833634] Error opening log file (/Users/belzephyrus/Library/Logs/CoreSimulator/CoreSimulator.com.apple.dt.xcodebuild.log): Operation not permitted
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]:504] WARN  : Unable to discover any Simulator runtimes. Developer Directory is /Applications/Xcode.app/Contents/Developer.
+[-[SimDiskImageManager _onQueue_checkConnection:]:270] ERROR : simdiskimaged connection is currently unavailable because connection became invalid
+[-[SimDiskImageManager init]:226] ERROR : Could not kickstart simdiskimaged; SimDiskImageManager services will not be available: Error Domain=NSPOSIXErrorDomain Code=53 "Software caused connection abort" UserInfo={NSLocalizedDescription=Error returned in reply from CoreSimulatorService: Connection invalid}
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]_block_invoke:561] ERROR : Could not get list of trusted mount directories: Error Domain=com.apple.CoreSimulator.SimError Code=409 "Cannot talk to the service used to manage runtime disk images (simdiskimaged) because its launchd job is not registered or was unloaded" UserInfo={NSLocalizedDescription=Cannot talk to the service used to manage runtime disk images (simdiskimaged) because its launchd job is not registered or was unloaded}
+[-[SimServiceContext sendRequest:reply:error:]:2152] ERROR : Unable to deliver request ({
+    request = "notification_subscription";
+    "set_path" = "/Users/belzephyrus/Library/Developer/CoreSimulator/Devices";
+}) because we are not connected to CoreSimulatorService.
+[-[SimDiskImageManager _onQueue_checkConnection:]:290] ERROR : simdiskimaged returned error (invalid), marking disconnected.
+2026-11-23 21:41:27.196 xcodebuild[8150:28833630] Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}
+[-[SimServiceContext sendRequest:reply:error:]:2152] ERROR : Unable to deliver request ({
+    request = "notification_subscription";
+    "set_path" = "/Users/belzephyrus/Library/Developer/CoreSimulator/Devices";
+}) because we are not connected to CoreSimulatorService.
+2026-11-23 21:41:27.196 xcodebuild[8150:28833630]  iOSSimulator: [SimServiceContext defaultDeviceSetWithError:] returned nil (Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedFailureReason=Failed to subscribe to notifications from CoreSimulatorService., NSLocalizedDescription=Failed to initialize simulator device set., NSUnderlyingError=0x7ce7cda1c0 {Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}}}). Simulator device support disabled.
+2026-11-23 21:41:27.197 xcodebuild[8150:28833587] Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}
+2026-11-23 21:41:27.197 xcodebuild[8150:28833587]  IDESimulatorAvailability: startObservingSimulatorUpdates() FAILED to register SimDeviceSet observer
+2026-11-23 21:41:27.217 xcodebuild[8150:28833636]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/faf72c4c-24a9-4a18-8bf6-d8859612b9d0.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833648]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/3c3bb56b-5d74-43b0-a3ba-f975319bd174.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833630]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/b434ee58-9805-4a80-91fb-67dacdff85c8.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833634]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/bd79422c-a73d-413d-b0c9-422110ea5f26.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833641]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/10e68d61-67bf-4f7c-8bed-6cfbce7b11cd.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833647]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/d86d9d74-87e2-43dc-9b57-a86bb6549401.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833640]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/fc5e20c2-c7be-42f4-99cf-20fc818e731c.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833644]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/1107f172-be83-49ce-abb3-04c075c29d74.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833635]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/73da9e96-9a49-46d6-853e-1b8fd999adec.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833587]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/6f3df630-36b5-4112-b7be-1abdbb4dd53e.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833632]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/1726c446-d3c0-4c09-90ff-f433bcdd9b9f.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833642]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/d04328ca-6dfd-4c23-8fd0-67c5314b8dc1.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833633]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/78bde976-29a4-4a55-89a8-9b1cf3b75654.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833649]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/9debf47a-05cf-429e-bc9b-de5117c2fd6f.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833645]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/c8bae27a-06b7-4730-973e-eb9345c81c87.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833650]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/e89bd5f4-e85f-4de1-931e-bd86d35ed554.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833588]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/5fa73e45-c5b0-43d4-8790-fad370a589e1.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.217 xcodebuild[8150:28833646]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/b14b8a13-d07d-49a8-8df7-51bea48d574f.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.219 xcodebuild[8150:28833636]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/230708ff-09cf-44be-a3d2-1a5ac70917ac.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.219 xcodebuild[8150:28833648]  DVTProvisioningProfileManager: Failed to load profile "/Users/belzephyrus/Library/Developer/Xcode/UserData/Provisioning Profiles/6a462ab5-c198-4756-b57a-1277b5dfc224.mobileprovision" (Error Domain=DVTProvisioningProfileProviderErrorDomain Code=1 "Failed to load profile." UserInfo={NSLocalizedDescription=Failed to load profile., NSLocalizedRecoverySuggestion=Profile is missing the required UUID property.})
+2026-11-23 21:41:27.277 xcodebuild[8150:28833564] [MT] IDESchemeActionsInvocationRecord: Device <DVTLocalComputer: 0x7cea31b100 (My Mac | arm64e)> is missing modelName.
+2026-11-23 21:41:27.277 xcodebuild[8150:28833564] [MT] IDESchemeActionsInvocationRecord: Device <DVTiOSDeviceSimulatorPlaceholder: 0x7cea2e5a40 (Any iOS Simulator Device | undefined_arch)> is missing operatingSystemVersion, operatingSystemVersionWithBuildNumber.
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'LuckyTiger' in project 'LuckyTiger' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/Art.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 410c2fd5562b88d246804bcf9fbffd63
+Build description path: /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/XCBuildData/410c2fd5562b88d246804bcf9fbffd63.xcbuilddata
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/ModuleCache.noindex
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/ModuleCache.noindex
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/CompilationCache.noindex
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/CompilationCache.noindex
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKStatCaches.noindex/iphonesimulator27.2-24B8118-cc78df9d8a9de6526dea716b1c70fd8e.sdkstatcache
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -o /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKStatCaches.noindex/iphonesimulator27.2-24B8118-cc78df9d8a9de6526dea716b1c70fd8e.sdkstatcache
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/PrecompiledHeaders
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/PrecompiledHeaders
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger-d7c8d4f86da4910b8d0f51464830d62f-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger-d7c8d4f86da4910b8d0f51464830d62f-VFS-iphonesimulator/all-product-headers.yaml
+
+CreateBuildDirectory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/LuckyTiger.xcodeproj
+    builtin-create-build-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/empty-LuckyTiger.plist (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/empty-LuckyTiger.plist
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-project-headers.hmap (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-project-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-own-target-headers.hmap (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-all-non-framework-target-headers.hmap (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-DebugDylibPath-normal-x86_64.txt (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-all-target-headers.hmap (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger-OutputFileMap.json (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger.hmap (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-generated-files.hmap (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-generated-files.hmap
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger-OutputFileMap.json (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger_const_extract_protocols.json (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger.LinkFileList (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger.LinkFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger.LinkFileList (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger.LinkFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger.SwiftFileList (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger.SwiftFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger_const_extract_protocols.json (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger.SwiftConstValuesFileList (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger.SwiftFileList (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger.SwiftFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger.SwiftConstValuesFileList (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger.DependencyStaticMetadataFileList (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger.DependencyMetadataFileList (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-DebugDylibPath-normal-arm64.txt (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-DebugDylibInstallName-normal-x86_64.txt (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-DebugDylibInstallName-normal-arm64.txt (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    write-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    /bin/mkdir -p /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app
+
+MkDir /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/assetcatalog_output/thinned (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    /bin/mkdir -p /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/assetcatalog_output/thinned
+
+MkDir /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/assetcatalog_output/unthinned (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    /bin/mkdir -p /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/assetcatalog_output/unthinned
+
+CpResource /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app/ticks.wav /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/ticks.wav (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/ticks.wav /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app
+
+CpResource /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app/stamp.wav /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/stamp.wav (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/stamp.wav /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app
+
+CpResource /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app/melody.wav /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/melody.wav (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/melody.wav /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app
+
+CpResource /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app/click.wav /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/click.wav (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/click.wav /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app
+
+CpResource /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app/bell.wav /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/bell.wav (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/bell.wav /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app
+
+CpResource /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app/Book /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/Book (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/Book /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app
+
+Ld /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -Os -Xlinker -no_warn_duplicate_libraries -L/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator -F/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator -install_name @rpath/LuckyTiger.debug.dylib -Xlinker -dead_strip -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger_dependency_info.dat -o /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+GenerateAssetSymbols /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/Art.xcassets (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/Art.xcassets --compile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/assetcatalog_dependencies --output-partial-info-plist /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/assetcatalog_generated_info.plist --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --development-region en-GB --target-device iphone --target-device ipad --minimum-deployment-target 17.0 --platform iphonesimulator --bundle-identifier com.tigerbureau.luckytiger --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+2026-11-23 21:41:30.179 ibtoold[8170:28833933] CoreSimulatorService connection became invalid.  Simulator services will no longer be available.
+/* com.apple.actool.compilation-results */
+/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+Ld /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -Os -Xlinker -no_warn_duplicate_libraries -L/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator -F/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator -install_name @rpath/LuckyTiger.debug.dylib -Xlinker -dead_strip -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger_dependency_info.dat -o /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/Binary/__preview.dylib
+
+CompileAssetCatalogVariant thinned /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/Art.xcassets (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/Art.xcassets --compile /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --development-region en-GB --target-device iphone --target-device ipad --minimum-deployment-target 17.0 --platform iphonesimulator
+2026-11-23 21:41:30.179 ibtoold[8171:28833932] CoreSimulatorService connection became invalid.  Simulator services will no longer be available.
+2026-11-23 21:41:30.263 ibtoold[8171:28833975] Logging connecton invalid: <OS_xpc_error: <dictionary: 0x1eacd6600> { count = 1, transaction: 0, voucher = 0x0, contents =
+	"XPCErrorDescription" => <string: 0x1eacd6740> { string cache = 0x0, length = 18, contents = "Connection invalid" }
+}>
+2026-11-23 21:41:30.263 ibtoold[8171:28833975] Error opening log file (/Users/belzephyrus/Library/Logs/CoreSimulator/CoreSimulator.com.apple.ibtool.log): Operation not permitted
+[-[SimDiskImageManager _onQueue_checkConnection:]:270] ERROR : simdiskimaged connection is currently unavailable because connection became invalid
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]_block_invoke:561] ERROR : Could not get list of trusted mount directories: Error Domain=com.apple.CoreSimulator.SimError Code=409 "Cannot talk to the service used to manage runtime disk images (simdiskimaged) because its launchd job is not registered or was unloaded" UserInfo={NSLocalizedDescription=Cannot talk to the service used to manage runtime disk images (simdiskimaged) because its launchd job is not registered or was unloaded}
+[-[SimServiceContext initWithDeveloperDir:connectionType:error:]:504] WARN  : Unable to discover any Simulator runtimes. Developer Directory is /Applications/Xcode.app/Contents/Developer.
+[-[SimDiskImageManager init]:226] ERROR : Could not kickstart simdiskimaged; SimDiskImageManager services will not be available: Error Domain=NSPOSIXErrorDomain Code=53 "Software caused connection abort" UserInfo={NSLocalizedDescription=Error returned in reply from CoreSimulatorService: Connection invalid}
+[-[SimDiskImageManager _onQueue_checkConnection:]:270] ERROR : simdiskimaged connection is currently unavailable because connection became invalid
+[-[SimServiceContext sendRequest:reply:error:]:2152] ERROR : Unable to deliver request ({
+    request = "notification_subscription";
+    "set_path" = "/Users/belzephyrus/Library/Developer/CoreSimulator/Devices";
+}) because we are not connected to CoreSimulatorService.
+2026-11-23 21:41:30.263 ibtoold[8171:28833930] Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={NSLocalizedDescription=CoreSimulatorService connection became invalid.  Simulator services will no longer be available.}
+/* com.apple.actool.errors */
+/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/Art.xcassets: error: None of the input catalogs contained a matching stickers icon set, app icon set, or icon stack named  "AppIcon".
+/* com.apple.actool.compilation-results */
+/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/assetcatalog_generated_info.plist_thinned
+/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/assetcatalog_output/thinned/Assets.car
+
+
+CreateUniversalBinary /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app/__preview.dylib normal arm64\ x86_64 (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/Binary/__preview.dylib /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/Binary/__preview.dylib -output /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app/__preview.dylib
+
+SwiftDriver LuckyTiger normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name LuckyTiger -Onone @/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -target x86_64-apple-ios17.0-simulator -g -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -index-store-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Index.noindex/DataStore -swift-version 5 -I /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator -F /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKStatCaches.noindex/iphonesimulator27.2-24B8118-cc78df9d8a9de6526dea716b1c70fd8e.sdkstatcache -output-file-map /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/ModuleCache.noindex -sdk-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger_const_extract_protocols.json -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-generated-files.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-own-target-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-all-target-headers.hmap -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-project-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources-normal/x86_64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources/x86_64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/x86_64/LuckyTiger-Swift.h -working-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver LuckyTiger normal arm64 com.apple.xcode.tools.swift.compiler (in target 'LuckyTiger' from project 'LuckyTiger')
+    cd /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name LuckyTiger -Onone @/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.2.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -index-store-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Index.noindex/DataStore -swift-version 5 -I /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator -F /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator -c -j18 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKStatCaches.noindex/iphonesimulator27.2-24B8118-cc78df9d8a9de6526dea716b1c70fd8e.sdkstatcache -output-file-map /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/ModuleCache.noindex -sdk-module-cache-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger_const_extract_protocols.json -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-generated-files.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-own-target-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-all-target-headers.hmap -Xcc -iquote -Xcc /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/LuckyTiger-project-headers.hmap -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources-normal/arm64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources/arm64 -Xcc -I/Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/LuckyTiger.build/Debug-iphonesimulator/LuckyTiger.build/Objects-normal/arm64/LuckyTiger-Swift.h -working-directory /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_stdarg-ESY16W3LZC0G8SLSP7546QPTV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_stddef-1JO6EOBQ29HTZZC94760VMWM9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/ptrcheck-3RYHUAH4AQY13GNSYKLQN4I8U.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_stddef-3AN68W4ACSWGFP0KC4K4AK2IH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/ptrcheck-BK1SDHABCFWWU47JSSLC5XWDD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_stdbool-F11YJQHP906QYOEGIXI39D1PO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-EXPUR0327Z53U7C0GWBBTURJQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/DeveloperToolsSupport-2P7V7AV37EUUBKUQJY5IJO8W3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_AvailabilityInternal-3RS7WB2IW0XJEI5263ZHRR7M5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/ptrauth-E0YCN1U2VVEE6MFDZG0SS1CV3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/SwiftShims-EJBOS15IFMZ7YDQBM6CWGJPGL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_AvailabilityInternal-908D5E8VFE3WPUUJ5YXMQJZRQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_float-DM6UOJ64DLUXU843YW4SI9YI2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_stdarg-AM3JR41DTJTGZAY9NGAVQUF3G.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-CRAS27K19WE7XGMV2GM4DAJJN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_float-5P1NHF0OKI32V81182SFBFM0D.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/SwiftShims-8PYBDC29GQ0DSM2S63DBKVW7B.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_stdbool-A3UYUX92L3GXOI9GFU6P4UNUN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/DeveloperToolsSupport-BTR0H24PA8LKK7FA31Y08JKCH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/ptrauth-66XYMU0IVVQ4M20BXI6SIQJQD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_DarwinFoundation1-D4O8FN61XRDDHQ189SHYJZ8VM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_DarwinFoundation1-40LJI0UUQKGYZJW8UNW00R4C.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_DarwinFoundation2-3EMTX2YO0K1WE5DZG5YNCL5C4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_limits-CEW80JA943HQAR8T6RG96KGDW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_limits-6S427W4Z5J76QCU77SR94DAH6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_DarwinFoundation2-9LKTOWBVTUX746QU6D1HC6Z8V.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/string_h-20INJMMC93BUJQSR681AGCIM7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/sys_types-97JPMWGDV2EC9XGNPX4A3261K.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_tgmath-2G589L2RJO1GHSVKNILC5G2DS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_stdint-3VT4XP1W69ZR17ME3X2X1M7S6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_tgmath-25KDOGAKQA4MCWE9T05YF2TKV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/string_h-7NHHDYPW5VVS3Q7OJBR4L2NIG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/sys_types-TRYWL6JZRHHP2PC0EDWMGXL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_stdint-3S6ADTKNWVO3VPFUSMJ5G17AI.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_stdatomic-AYLJSNTAWLRK61FBS1JD77M2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_DarwinFoundation3-1G4DPWIIZKI2X2FZPRZ8IUO4B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_stdatomic-50ZXLSOF5ZPUSXO4C8CE8MQ4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_intrinsics-AAOC1XR5MD9D0HE7GM34KEZSF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_DarwinFoundation3-83K40PFPGYUYLJ7OM7SSJUNR9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_intrinsics-1GZ1J5695X31SIE4VMXXJZ7LB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_inttypes-9758TMAZGMWSRBZXPBIE45SFZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_Builtin_inttypes-79P45Z5HI8U4DTGDZCPDZ4DQY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Darwin-6KKSTQDN6Z0GXY6DGXM9Z9ZG8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Darwin-3JIKH78OE564UEHEY7YSEOOH2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/simd-DB5W7ASCIEWPCPS4DJETJJUBQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/ObjectiveC-AJ6Q8PTI9VV3GW2ODE6XSE61A.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/MachO-762PKEX91MJGRY8AAZLE9XBZY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/simd-AJL5VNN9JVYS4A8T12QO9K3FS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/MachO-4PGB02HTXW8BDIATX8TN83IV1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/ObjectiveC-714B3HZB57IR1UVFD9I89DHYO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/os_object-3NU3KJO3CPTFB2WLPL04A4JHY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/os_object-B7VZWV9OZRY649MRSKBN9SIU9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Spatial-CJAHSI2LYESJERFQ65Z7ME6HC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/os_workgroup-55D91YTCSPSE4A5UBE4SEV9QG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/os_workgroup-8HHEWIDGH48652T1V1CKQWEN9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Dispatch-10N6VD578A5OW2BBV6CQGPXWJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Dispatch-8SH7BBENG3ML2RJTOX8Z6V4L3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/XPC-6Y7A2UCUINW8ZOABJUVGP1JGN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreFoundation-2Q9YXAG9MUAG0FJSPX1ODUPWL.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/dnssd-1G2XCLD20DWUKLBDKC1P2ATAB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/dnssd-70N7GM5WCZ57D59YTHB35Q1W0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreFoundation-6L1FNPHUCU1357NDP5BZBNM5V.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/XPC-E0XTYHIAN1K48SGW12FJRFBL4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Spatial-E39FF8WL5JDRSXSY7WQ52HAJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/os-EFOTNO968FV3FL2HY4B13I9UL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/os-ZAN5D32OIFP2UJA6MLSFMW0S.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Security-AITRMDH4OC48NY82TNZLJ4PLO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreGraphics-3VV7T30IFBLEQF07CXUZMF0PS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CFNetwork-2G2O8Q52LJ0KELJX2662RCYJ2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreAudioTypes-8WQK3BYFO5UIJ6EV85ANM1OUV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Security-31M2PP6VKD4V0070BIN1ZMYKZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreAudioTypes-57XZ4G07X5OVYPXSRNTET743O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreGraphics-KXIU8IJ1766A9AMT1J0AC655.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CFNetwork-MBMBUW311IJ5DTC75UDVZ6R7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreAudio-7JUGO6DDJFBX7ZMLK3G12GK8C.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Foundation-7REWJY8MA0IO8RCSJX3Q06E08.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreAudio-67VUDG3LTHCN9SUR0QOVDU77W.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/ImageIO-A67D0IRJSVPWPE73CW9AC7TXV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreText-927QBTOYVAD9UTKOIF198GEN0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Foundation-C833N67CN8CC6UQ62T0Q0SE14.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/ImageIO-860N3LU2F7RYCV3JKIW9KS8EZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreText-KUXAUGFLTTVM4UBIHPLORXG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/OSLog-655TNMNMDLKJ2OZPBTQ8L0EB8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/DataDetection-755U2CP6W72M5TOTRL3L3JDYC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Network-B9XPILF6B7AXYBDBNBEELWRJX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/OpenGLES-ERU8KTLYBCR0DNYPXBQHY9VNO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/FileProvider-A2NCM2V3DBF4N4KOLY0Z8J49O.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreData-BY3DWTD02RMSZG5JEC1FX6V0B.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreMIDI-2K6L08E9NF8OU769LW9NROVMH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreTransferable-EQ19OUKMH3CO6W8F6TBH1QJ3C.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_LocationEssentials-6I3OFQMSY56RO7VEL6U7E1J74.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/UIUtilities-CVISRID8K21AA7L7BF0VVZKYP.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-YDCLRNLJJT602UJX7PVICXOE.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/UserNotifications-346MRNF04M13XOWP5PVCP6XTB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Symbols-1EA4KZCVHRB886HR3N3PLWRR4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Accessibility-1L758RRDBHC7Z3V1QOKK1A837.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/IOSurface-8QXLPBC69IKUO15WMKKPJGN8T.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Network-75KW7H4LVADLBLMUR911UI0CC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-CATCBC22YPO6ZB72Q2YZCVGKQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/FileProvider-EP3KSRI7FSQMMFY4W5YN8CF9Q.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/UIUtilities-BIFIDH5JB8MXV828REI8VQFZC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Accessibility-CECF6NL5WWF3YT604M6N8269K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/OpenGLES-5TIZ8HUKOMWEYSPJ1XM4CCGNI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreData-5T0V958E14VSRRNCZOOTQMFLP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/UserNotifications-5BX84B8OHZ8B9WO0P01K250A4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Symbols-BSZW9GWF0IHIYNF1P2UQQI7VX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/IOSurface-1RWYOJVENMYJMR07YP52LFNLT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/OSLog-8E4042IF80QSOOZKS6CEW9JW1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Metal-AMSUU4RHYRVZ9CQIXH2ZWYZV0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/_LocationEssentials-BU8RICQBS8Q1JTF1MHK2RDK8K.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/AudioToolbox-49USUFMUMA0UK1LQJGXGTN1S7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreLocation-E2JA6ABLWPXV7IFMXF269PAMU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreMIDI-8651SD69LQJFTGVO6CEKICBMN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/DataDetection-A9AO61MR2YUYFOONNV73TIGGS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/AVRouting-CA30Q76YUVBUBU654VN2342C6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreTransferable-CYW4I3Z526Y2MYA1B847264XL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreLocation-DEIUFU9X3RXKUERUWN46PVLLH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/AVRouting-NFDJPZRAXVIUTVMJXI4WTWM7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreMotion-6SCP5GEK7K7RJKR3Y1TYKL4JG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/Metal-4FT537Z8R59WK1HZE9030G898.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/AudioToolbox-1EPTM1GHC9KOYY8WNPCYH94A0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreMotion-AUSM77G2R29EVXZHPQN23DUUO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreVideo-A0Z17TE8J4EJ6BHY4S1XVANVA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreVideo-3RKW6TYNVTCQXNYHSHDPTO6VH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreImage-62XFKWBVFHM6WTL2947CES7MO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/QuartzCore-9V2OZXMGCEB7RZZ2U61KOYKZV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreMedia-4O2TB5G6I8NMTEGBFK77NQCTU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreMedia-AFAXD4Z07KGK43TOSL13FEIGU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/CoreImage-CJ5MR3YG8WVENRCCKVWSZHUFC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/QuartzCore-BW51L3FZ1NATMQSITOPJA8PL3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/SwiftUICore-DGQT44B06J519SCNWGRE5GV6S.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/VideoToolbox-EFTSQ67R50HC1ZC9R6636QHL6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/AVFAudio-4OUMA3Y3HAEGS69O24D395V54.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/MediaToolbox-2J4U4LS6EWCEZDUB5R081PBA2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/UIKit-EGWKKWFXPSSQCIXJVW2UC2XGO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/SwiftUICore-746HFOQNHXNCS40V3XWUAY7NZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/VideoToolbox-8ED8BS5QE8ANKJQZYYGT9UF26.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/AVFAudio-99GZMRFS9LG5AFW4AV8FWRUFQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/MediaToolbox-BCL2NQHZJL5HKK1NCU0EJ17BN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/UIKit-6BW5I5NZKVL1E98XN0A0BUBZE.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/AVFoundation-A2F1697STO5RNZOQDDRNBJ3DO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules/AVFoundation-BEHGAICF6845ZICT5AQUULQNJ.pcm
+
+PruneExplicitPrecompiledModules /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/SDKExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileAssetCatalogVariant thinned /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/QA/build/Build/Products/Debug-iphonesimulator/LuckyTiger.app /Users/belzephyrus/Documents/gambling_factory/output/concepts23nov/acc_411_the_lucky_tiger/Game/Resources/Art.xcassets (in target 'LuckyTiger' from project 'LuckyTiger')
+	Building project LuckyTiger with scheme LuckyTiger
+(2 failures)

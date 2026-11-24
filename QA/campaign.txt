@@ -1,0 +1,402 @@
+case|box|box|box
+title|The Music Box|音樂盒|علبة الموسيقى
+arrival|Rain drips from a coat hem. A woman and a man with a music folder hum the same four notes.|雨水從大衣下襬滴落。女人和抱著樂譜夾的男人哼著相同的四個音。|يتقاطر المطر من طرف معطف. تدندن امرأة ورجل يحمل حافظة نوتات بالنغمات الأربع نفسها.
+v.name|Eleanor Vale|艾琳諾・維爾|إليانور فيل
+v.role|The woman in the wet coat|穿濕大衣的女人|صاحبة المعطف المبتل
+v.claim|Aunt Ada left me her box. I wound it by the kitchen window when her hands began to hurt.|艾達姨媽把音樂盒留給了我。她的手開始痛以後，都是我在廚房窗邊替她上發條。|تركت لي خالتي آدا علبتها. كنت أدير مفتاحها عند نافذة المطبخ حين بدأت يداها تؤلمانها.
+q.0|Where did you hear the tune?|妳在哪裡聽過這段旋律？|أين سمعتِ اللحن؟
+a.0|Ada played it almost every evening. She always waited through the little silence before the last note.|艾達幾乎每天傍晚都會播放。最後一個音前的小停頓，她總會耐心等完。|كانت آدا تشغّلها كل مساء تقريباً، وتنتظر دائماً انقضاء السكتة الصغيرة قبل النغمة الأخيرة.
+q.1|Show me how you wind it.|請示範妳是怎麼上發條的。|أريني كيف تديرين مفتاحها.
+a.1|Before you lift the lid, Eleanor braces the left hinge with her thumb. ‘Go slowly. That side gives. Ada used to leave the mending to me.’|你還沒掀蓋，艾琳諾就用拇指按住左邊的鉸鏈。「慢一點，那頭會鬆。艾達以前都讓我修。」|قبل أن ترفع الغطاء، تسند إليانور المفصلة اليسرى بإبهامها. «على مهلك. هذا الطرف يفلت. كانت آدا تتركني أصلحها دائماً».
+v.name|Arthur Bell|亞瑟・貝爾|آرثر بيل
+v.role|The man with the music folder|抱著樂譜夾的男人|صاحب حافظة النوتات
+v.claim|Ada lent it to me to copy the tune. She said I should keep it until the arrangement was finished, and I thought she meant for good.|艾達把盒子借我抄旋律。她說在編曲完成前可以留著，我以為她是說從此送我了。|أعارتني إياها آدا لنسخ اللحن. قالت أن أحتفظ بها حتى أنتهي من التوزيع، وظننت أنها تقصد أن تبقى معي للأبد.
+q.0|Where did you hear the tune?|你在哪裡聽過這段旋律？|أين سمعتَ اللحن؟
+a.0|I copied it note by note. I can hum the pause exactly as she played it.|我一個音一個音抄下來，連她在哪裡停一下，我都哼得出來。|نسخته نغمة نغمة. أستطيع حتى أن أترك الوقفة في مكانها تماماً كما كانت تعزفها.
+q.1|Show me how you wind it.|請示範你是怎麼上發條的。|أرني كيف تدير مفتاحها.
+a.1|Arthur reaches straight for the crank and leaves the lid unsupported. ‘I wrote from the sound. Ada did the winding.’|亞瑟直接伸手去轉發條，沒有扶蓋。「我憑耳朵記譜。上發條的是艾達。」|يمد آرثر يده إلى المفتاح ويترك الغطاء بلا سند. «كنت أدوّن من السماع. آدا هي التي كانت تدير المفتاح».
+familiar|The shared tune|兩人都會的旋律|اللحن المشترك
+familiarDetail|Both visitors can hum G, B, D, B, including the short pause before the last note.|兩人都能哼出 G、B、D、B，包括最後一音前的短暫停頓。|يدندن كلا الزائرين صول وسي وري وسي، مع الوقفة القصيرة قبل النغمة الأخيرة.
+f.action|Run a finger along the polished rim|沿著磨亮的盒緣摸一圈|مرّر إصبعك على الحافة المصقولة
+f.title|Polished rim|磨亮的盒緣|حافة مصقولة
+f.detail|One edge is slick with handling. Put the hinges towards you for a closer look.|一邊被摸得很光滑。把鉸鏈轉到面前再細看。|صقل الاستعمال إحدى الحواف. أدر العلبة حتى تواجهك المفصلتان لتفحصهما عن قرب.
+f.action|Lift the lid slowly|慢慢掀開盒蓋|ارفع الغطاء ببطء
+f.title|Loose left hinge|鬆脫的左鉸鏈|المفصلة اليسرى المرتخية
+f.detail|The left pin rides upwards unless braced. The lid opens around a folded paper shim.|不按住的話，左側軸銷就往上跑。掀蓋後，可看見一片摺起的紙墊。|ينزلق المسمار الأيسر إلى أعلى ما لم تثبّته. ينفتح الغطاء ليكشف قطعة ورق مطوية تسند المفصلة.
+f.action|Lift the shim and compare the signatures|抽出紙墊，比對簽名|ارفع الحشوة الورقية وقارن التوقيعين
+f.title|Signed paper shim|有簽名的紙墊|حشوة ورقية موقّعة
+f.detail|Under the fold is ‘Left hinge refitted by Eleanor Vale’. The looping V matches her claim form.|摺痕底下寫著「左鉸鏈由艾琳諾・維爾重裝」。簽名裡彎曲的 V 和她的認領單一致。|تحت الطيّة عبارة «أعادت إليانور فيل تركيب المفصلة اليسرى». انحناءة حرف V تطابق توقيعها على استمارة المطالبة.
+error.owner|Arthur's loan covered copying the tune. Eleanor points out that the box had to be returned when his arrangement was done.|亞瑟借盒子是為了抄旋律。艾琳諾指出，編曲做完就該歸還。|إعارة آرثر كانت لغرض نسخ اللحن. تشير إليانور إلى أن عليه رد العلبة بعد الفراغ من التوزيع.
+error.evidence|‘Arthur can hum it too,’ Eleanor says. ‘Did you see me steady the hinge before it opened? There is also writing under the fold.’|「亞瑟也會哼，」艾琳諾說。「你有看到我在掀蓋前扶住鉸鏈嗎？紙墊摺痕底下也有字。」|تقول إليانور: «آرثر يدندنها أيضاً. هل رأيتني أثبّت المفصلة قبل فتحها؟ وهناك كتابة تحت طيّة الورق».
+error.mechanism|Compare the paper under the hinge to the claim form.|拿鉸鏈下的紙和認領單比一比。|قارن الورقة تحت المفصلة باستمارة المطالبة.
+letter|Ada writes that the box is Eleanor's, with thanks for every little repair. She asks her to set it on the kitchen sill and leave the tune's last silence exactly as it is.|艾達在信裡說盒子留給艾琳諾，謝謝她每一次細心修補。她希望艾琳諾把它放在廚房窗臺，而最後一音前的停頓，要好好保留。|تكتب آدا أن العلبة لإليانور وتشكرها على كل إصلاح صغير. وتطلب منها وضعها على حافة نافذة المطبخ وترك السكتة الأخيرة في اللحن كما هي.
+case|umbrella|umbrella|umbrella
+title|The Folding Umbrella|折疊傘|المظلة القابلة للطي
+arrival|A green umbrella smells of wet pavement. Two people recognise the dent in its handle.|綠傘帶著濕人行道的氣味。兩人都認得傘柄上的凹痕。|تفوح من مظلة خضراء رائحة الرصيف المبتل. يتعرّف شخصان إلى الانبعاج في مقبضها.
+v.name|Jonah Pike|喬納・派克|جونا بايك
+v.role|The porter|門房|البوّاب
+v.claim|I brought people under it from the station steps all day. When I went off shift it was still by my stool.|我整天撐它接車站階梯上的旅客。下班時它還靠著我的凳子。|أظللت بها الناس على درج المحطة طوال النهار. وحين انتهت نوبتي كانت لا تزال قرب مقعدي.
+q.0|Where did the handle get dented?|傘柄是在哪兒撞凹的？|من أين جاء الانبعاج في المقبض؟
+a.0|On the iron rail. I caught it while carrying a suitcase down.|撞到鐵扶欄。我提箱子下樓時勾到了。|من الدرابزين الحديدي. علقت به وأنا أنزل حاملاً حقيبة.
+q.1|Who dropped it by your stool?|是誰把傘放在你的凳子旁？|من تركها قرب مقعدك؟
+a.1|Nell lent it to me until the crowd thinned. She had already mended the cuff.|是奈爾借我的，說人少了再還。借給我時，她已經補過束帶。|أعارتني إياها نيل حتى يخف الزحام. وكانت قد رقعت السوار من قبل.
+v.name|Nell Sayer|奈爾・塞耶|نيل ساير
+v.role|The station caretaker|車站管理員|مسؤولة العناية بالمحطة
+v.claim|Mine is the umbrella I signed out for platform duty. It came apart at the cuff and I repaired it between trains.|那是我為月臺值勤登記領用的傘。束帶鬆開，我趁兩班車之間修好了。|إنها المظلة التي تسلّمتها في السجل للعمل على الرصيف. انفك سوارها فصلحته بين قطارين.
+q.0|What does the register describe?|領用簿上記了什麼？|ما الوصف في سجل العهدة؟
+a.0|Two red crosses in mirrored pairs on the inside cuff. I logged the repair so I could account for it later.|束帶內側有兩個對稱的紅叉。我把修補登記了，日後才對得起紀錄。|غرزان حمراوان متقابلتان على شكل صليب داخل السوار. سجّلت الإصلاح كي أستطيع إثباته لاحقاً.
+q.1|Why was it leaning by the stairs?|傘為什麼靠在階梯旁？|لماذا كانت مسندة قرب الدرج؟
+a.1|I let Jonah use it during the downpour. The wet passenger rush comes before my cupboard.|大雨時我借給喬納。旅客淋雨，比把傘收回櫃子要緊。|تركت جونا يستعملها في الهطول. كان عبور الركاب تحت المطر أولى من إعادتها إلى خزانتي.
+familiar|The dented handle|凹陷的傘柄|المقبض المنبعج
+familiarDetail|Both visitors used the handle at the station rail.|兩人都曾在車站欄杆旁握過這把傘。|استعمل الزائران المظلة عند درابزين المحطة.
+f.action|Lift the loose end of the strap|提起束帶鬆開的一端|ارفع طرف الرباط المرتخي
+f.title|Loose outer cuff|鬆開外束帶|سوار خارجي مرتخٍ
+f.detail|The outer face is plain. The red thread ducks inside the cuff.|外面素淨，紅線往束帶內側鑽。|الوجه الخارجي خالٍ من العلامات. يختفي الخيط الأحمر داخل السوار.
+f.action|Turn the cuff inside out|把束帶翻到內側|اقلب السوار من الداخل إلى الخارج
+f.title|Paired red stitches|成對的紅縫線|غرزتان حمراوان متقابلتان
+f.detail|Two facing cross-stitches close the tear. The thread would be invisible while carrying the umbrella.|兩個相對的十字縫補住裂口。撐傘時看不見這些線。|تغلق غرزتان متقابلتان على شكل صليب الشق. لا تظهران لحامل المظلة أثناء استعمالها.
+f.action|Lay the cuff over the repair entry|把束帶和維修登記對照|قابل السوار بقيد الإصلاح
+f.title|Repair register match|與維修登記吻合|مطابقة لسجل الإصلاح
+f.detail|The duty register lists both the mirrored stitches and Nell's issue signature in the same entry.|值勤簿同一欄記著對稱縫線，也有奈爾領用時的簽名。|يذكر قيد واحد في سجل المناوبة الغرز المتقابلة وتوقيع نيل عند الاستلام.
+error.owner|Jonah remembers the rail, but the station issue register names Nell as the person responsible for bringing this umbrella back.|喬納記得扶欄，但車站領用簿上，負責交還這把傘的是奈爾。|يتذكر جونا الدرابزين، لكن السجل يذكر أن نيل هي المسؤولة عن رد هذه المظلة.
+error.evidence|Nell lays a finger on the plain outer cuff. ‘The dent could be on any loaner. My repair is signed into the register.’|奈爾指著普通的外束帶。「借來的傘都可能撞凹。我的修補有登記簽名。」|تشير نيل إلى الوجه الخارجي الخالي. «قد يظهر الانبعاج في أي مظلة معارة. إصلاحي مسجّل باسمي».
+error.mechanism|Turn the cuff, then check the duty register.|翻出束帶內側，再核對值勤簿。|اقلب السوار ثم راجع سجل المناوبة.
+letter|Nell checks the umbrella back into the station cupboard. In the margin she writes that Jonah may borrow it again when the rail shines with rain.|奈爾把傘登記收回車站櫃子，在欄邊寫下：哪天欄杆又讓雨淋得發亮，喬納還可以借。|ترد نيل المظلة إلى خزانة المحطة وتكتب في الهامش أن لجونا أن يستعيرها مجدداً حين يلمع الدرابزين بالمطر.
+case|thermos|thermos|thermos
+title|The Green Thermos|綠色保溫瓶|الترمس الأخضر
+arrival|Steam has gone cold under the cap. A baker and a delivery cyclist both remember the cinnamon.|瓶蓋下的蒸氣早冷了。麵包師和送貨騎士都記得肉桂味。|برد البخار تحت الغطاء. يتذكر خباز ودرّاج توصيل رائحة القرفة.
+v.name|Mara Reed|瑪拉・里德|مارا ريد
+v.role|The bakery owner|麵包店主|صاحبة المخبز
+v.claim|I loan it to the night delivery shift. My mother Alice marked the inner base when she handed over the bakery. My initials came next, and then the apprentice's.|我把它借給夜間送貨班。母親艾莉絲把麵包店交給我時，在內底刻了記號。接著是我，然後是學徒。|أعيره لفريق التوصيل الليلي. علّمت أمي أليس القاعدة الداخلية عند تسليمي المخبز. جاءت أحرف اسمي بعدها ثم أحرف المتدرّب.
+q.0|What are the initials, in order?|三組縮寫的順序是什麼？|ما ترتيب الأحرف الأولى؟
+a.0|A.R., M.R., E.N. Oldest to newest. We keep the apprenticeship record for Eli in the red marionette's wrist kit, where the troupe's props travel.|A.R.、M.R.、E.N.，由舊到新。伊萊的學徒存根放在紅色提線偶的手腕工具包裡，隨劇團道具一起走。|A.R. ثم M.R. ثم E.N.، من الأقدم للأحدث. نحفظ قيد تدريب إيلاي في علبة معصم الدمية الحمراء التي تسافر مع أدوات الفرقة.
+q.1|What was in it on the night shift?|夜班時瓶裡裝了什麼？|ماذا كان فيه أثناء نوبة الليل؟
+a.1|Cinnamon tea. I filled it before we pulled the last tray of bread.|肉桂茶。最後一盤麵包出爐前，我把瓶子裝滿了。|شاي بالقرفة. ملأته قبل إخراج آخر صينية خبز.
+v.name|Eli Noon|伊萊・努恩|إيلاي نون
+v.role|The delivery cyclist|送貨騎士|درّاج التوصيل
+v.claim|I carried it all winter, and E.N. is on the shift sticker. I assumed the bakery meant to leave it on my bike.|我整個冬天都帶它，班表貼紙上也有 E.N.。我以為店裡是要它一直留在我車上。|حملته طوال الشتاء، وعلى ملصق النوبة E.N. فظننت أن المخبز أراده أن يبقى على دراجتي.
+q.0|When did your name go on it?|你的名字是什麼時候加上的？|متى أُضيف اسمك؟
+a.0|On my first night. Mara added my name so she could get the thermos back from the right rider.|我第一個夜班。瑪拉寫上名字，好向對的騎士收回瓶子。|في ليلتي الأولى. أضافت مارا اسمي لتعرف من أي درّاج تسترجع الترمس.
+q.1|What is below the outside cap?|外底蓋下面有什麼？|ماذا يوجد تحت الغطاء الخارجي للقاعدة؟
+a.1|I never took that bit off. We were told to wash the cup and leave the base alone.|我沒拆過那塊。大家說洗杯蓋就好，底部別動。|لم أنزع تلك القطعة قط. قيل لنا اغسلوا الكوب واتركوا القاعدة.
+familiar|Cinnamon and shift sticker|肉桂味與班表貼紙|القرفة وملصق النوبة
+familiarDetail|Both visitors can identify the drink and the rider currently using the thermos.|兩人都知道飲料是什麼，也知道目前是誰在用。|يعرف الزائران المشروب والدرّاج الذي كان يستعمل الترمس.
+f.action|Lift the shift sticker at the corner|掀開班表貼紙的一角|ارفع زاوية ملصق النوبة
+f.title|Removable rider label|可撕的騎士標籤|ملصق درّاج قابل للإزالة
+f.detail|E.N. is pencilled on washable tape. A seam runs around the foot.|E.N. 用鉛筆寫在防水膠帶上。瓶腳外圍有一圈接縫。|كُتب E.N. بالرصاص على شريط قابل للغسل. يطوّق القاعدة خط التحام.
+f.action|Unscrew the false bottom|旋開夾層底蓋|فك القاع المزدوج
+f.title|Engraved inner base|刻字的內底|قاعدة داخلية منقوشة
+f.detail|Beneath the cup, three marks share the metal rather than the temporary tape.|底蓋下三組記號刻在金屬上，不是在暫用膠帶上。|تحت الغطاء ثلاث علامات منقوشة في المعدن نفسه، لا على الشريط المؤقت.
+f.action|Read the initials from the oldest groove|從最舊的刻痕讀起|اقرأ الأحرف ابتداء من الحز الأقدم
+f.title|Order of the engravings|刻字順序|ترتيب النقوش
+f.detail|A.R. → M.R. → E.N. matches the bakery's handover log. Only the central entry records a transfer; the last records Eli's enrolment.|A.R. → M.R. → E.N. 和麵包店交接簿相符。只有中間那筆是移交，末筆是伊萊入行登記。|يطابق A.R. ثم M.R. ثم E.N. سجل تسليم المخبز. القيد الأوسط وحده نقل للعهدة، والأخير قيد التحاق إيلاي.
+error.owner|Eli's initials are an apprentice entry. Mara points to the bakery handover next to hers.|伊萊的縮寫是學徒登記。瑪拉指出自己名字旁的麵包店交接紀錄。|أحرف إيلاي قيد تدرّب. تشير مارا إلى قيد تسليم المخبز المدوّن إلى جوار أحرفها.
+error.evidence|‘That tells you whose deliveries it was on,’ Mara says. ‘The inner base tells you whose equipment it is.’|「那張只能說是誰送貨時帶著，」瑪拉說。「內底才有器具屬於誰的紀錄。」|تقول مارا: «هذا يخبرك من كان يوصّل بها. أما القاعدة الداخلية فتبيّن لمن تعود المعدات».
+error.mechanism|Take off the false bottom to see the order.|旋開假底，查刻字先後。|انزع القاع المزدوج لترى الترتيب.
+letter|Mara takes the thermos back into bakery stock and signs the A.R. → M.R. → E.N. handover copy. Her instructions say to file it with the marionette's apprenticeship slip if the touring company's trunk ever turns up.|瑪拉把保溫瓶登回店裡庫存，在 A.R. → M.R. → E.N. 交接副本簽名，註明：若巡演劇團的大箱找到了，就把這份副本和提線偶的學徒存根一起歸檔。|تعيد مارا الترمس إلى عهدة المخبز وتوقّع نسخة التسليم A.R. ثم M.R. ثم E.N. وتكتب أن تُحفظ مع قسيمة التدرّب الخاصة بالدمية إذا ظهر صندوق الفرقة.
+error.physical|The inside marks need context. Pair the engraving order with the removable rider label to distinguish a shift assignment from a handover.|光看內側的刻痕還不夠。把刻痕順序與可撕下的騎手標籤一起比對，分清輪班分配和正式交接。|تحتاج النقوش الداخلية إلى سياق. قارن ترتيبها بالملصق القابل للنزع لتميّز بين إسناد مهمة توصيل وتسليم العهدة.
+error.statement|The engraving order is needed alongside Eli’s account of when his name was added. Knowing what was in the thermos or how it was washed does not establish who got the equipment.|把刻痕順序與伊萊關於名字何時加上的說法一起核對。飲料口味或清洗方式無法證明器具交給了誰。|اجمع بين ترتيب النقوش وإفادة إيلاي عن وقت إضافة اسمه. معرفة ما شربه أو كيف غسل الإناء لا تثبت لمن سُلّم.
+proofGuide|Compare the removable rider label with the order of the engravings. Eli’s account of when his name went on can also put the engraving in context.|比較可撕下的騎手標籤和刻痕的先後順序。伊萊也可以說明自己的名字是何時加上的，幫你解讀刻痕。|قارن ملصق عامل التوصيل القابل للنزع بترتيب النقوش. ويمكن لإيلاي توضيح معنى النقوش إذا بيّن متى أضيف اسمه.
+case|punch|punch|punch
+title|The Ticket Punch|驗票鉗|خرّامة التذاكر
+arrival|A last-tram stub is still in the tray. A collector and a relief inspector both reach for the hand punch.|托盤還留著末班車存根。票券收藏家和代班查票員同時伸手拿驗票鉗。|لا يزال كعب تذكرة الترام الأخير في الصحن. يمد جامع تذاكر ومفتّش بديل يديهما نحو الخرّامة.
+v.name|Owen Flint|歐文・弗林特|أوين فلينت
+v.role|The ticket collector|票券收藏家|جامع التذاكر
+v.claim|I bought a retired punch at the depot sale. This has the same weight and the same polished handles.|車庫義賣時，我買過一把退役驗票鉗。這把重量一樣，握柄也同樣磨亮了。|اشتريت خرّامة خارجة من الخدمة في مزاد المستودع. لهذه الوزن نفسه والمقبضان المصقولان نفسيهما.
+q.0|Did the depot give you a stub?|車庫給你留了存根嗎？|هل أعطاك المستودع كعباً؟
+a.0|Yes, but mine has a neat square. That's what I collect, intact cuts.|有，我那張是整齊方孔。我收藏的是切口完整的。|نعم، لكن في كعبي مربع نظيف. أنا أجمع الثقوب السليمة.
+q.1|When did you last hold this model?|你上次拿這款鉗子是什麼時候？|متى أمسكت بهذا الطراز آخر مرة؟
+a.1|At the sale. I tried a whole crate before choosing one.|就是義賣時。我試了一整箱才挑了一把。|في المزاد. جرّبت صندوقاً كاملاً قبل أن أختار.
+v.name|Ida Moss|艾達・莫斯|آيدا موس
+v.role|The relief inspector|代班查票員|مفتّشة التذاكر البديلة
+v.claim|This is my assigned duty punch. I dropped it while stowing the last-tram roll at the depot.|那是我值班配發的鉗子。回車庫收末班車票卷時掉的。|هذه الخرّامة المسندة إليّ في النوبة. أسقطتها عند تخزين لفة تذاكر الترام الأخير في المستودع.
+q.0|What cut is on the duty stub?|值班存根有什麼切口？|ما شكل القطع في كعب المناوبة؟
+a.0|A little split at the lower edge. A chip in our punch leaves two points in the cut.|下緣有點分叉。我們的鉗齒缺了一角，剪出的口會冒兩個小尖。|شق صغير عند الحافة السفلية. الثلمة في خرّامتنا تترك نتوءين في القطع.
+q.1|Why was the punch off the tram?|驗票鉗為什麼離開了電車？|لماذا كانت الخرّامة خارج الترام؟
+a.1|Relief staff sign their tools back in. My depot stub is still stapled to the shift line.|代班人員要把工具簽回庫。我的車庫存根還訂在班表那一欄。|المفتّشون البدلاء يعيدون أدواتهم بالتوقيع. لا يزال كعب المستودع مدبّساً بسطر مناوبتي.
+familiar|Polished handles|磨亮的握柄|مقبضان مصقولان
+familiarDetail|Hand punches of this make share their weight and handle shape.|同廠驗票鉗的重量和握柄外形相同。|خرّامات هذا الطراز لها الوزن وشكل المقبض نفسيهما.
+f.action|Open the punch jaws|張開驗票鉗的鉗口|افتح فكي الخرّامة
+f.title|A nick in the die|齒模缺角|ثلمة في قالب القص
+f.detail|The cutting die has a little chip. Turn the jaws towards you before feeding a blank.|齒模有個小缺角。先把鉗口轉向自己，再送入空白票。|في قالب القص ثلمة صغيرة. أدر فكي الخرّامة نحوك قبل إدخال تذكرة فارغة.
+f.action|Squeeze the handles and punch the ticket|握緊鉗柄，在票上打孔|اضغط المقبضين واخرم التذكرة
+f.title|Fresh split cut|新打出的分叉孔|قطع مشقوق حديث
+f.detail|The blank now has two little points in its cut. Lay it against the route stub.|空白票新打出的孔有兩個小尖。拿它和路線存根比較。|أصبح في قطع التذكرة الفارغة نتوءان صغيران. قابلها بكعب تذكرة الخط.
+f.action|Check the cut against the signed stub|用有簽名的存根核對切口|تحقّق من القطع على الكعب الموقّع
+f.title|Duty stub with matching split|分叉吻合的值班存根|كعب مناوبة بشق مطابق
+f.detail|The two points match the stub stapled by Ida's issue signature. The collector's square comes from another die.|兩個小尖和訂在艾達領用簽名旁的存根吻合。收藏家的方孔來自另一把鉗。|يطابق النتوءان الكعب المدبّس قرب توقيع استلام آيدا. مربع الجامع من قالب آخر.
+error.owner|Owen's sale ticket shows a square. It places his punch at the sale and leaves this chipped one on Ida's duty line.|歐文的義賣券上是方孔。那證明他的鉗在義賣場，這把缺角的則登在艾達班表上。|في تذكرة مزاد أوين مربع. إنها تخص خرّامة المزاد، أما ذات الثلمة ففي سطر مناوبة آيدا.
+error.evidence|‘Every punch on this route wears the same way,’ Ida says. ‘Make a cut, then find my stub.’|「這條路線的鉗子磨起來都差不多，」艾達說。「打一個孔，再找我的存根。」|تقول آيدا: «تتآكل خرّامات الخط كلها بالطريقة نفسها. اقطع تذكرة ثم اعثر على كعبي».
+error.mechanism|Make a fresh cut so there is something to compare.|先打出新切口，才有得比。|اصنع قطعاً جديداً حتى يكون لديك ما تقارنه.
+letter|Ida clips the test ticket to her shift return. Owen asks for a spare stub with the odd cut to put beside his pristine squares.|艾達把測試票夾進交班單。歐文討了一張怪孔票，好和他完好的方孔排在一起。|تثبّت آيدا تذكرة الاختبار في نموذج رد العهدة. يطلب أوين كعباً زائداً بالقطع الغريب ليضعه إلى جوار مربعاته النظيفة.
+error.physical|A mark on one piece of paper cannot identify the tool by itself. Link the nick in the die to the split on the signed duty stub.|單憑紙上的痕跡無法辨認工具。比對沖模缺口與已簽名的值勤票根上的裂口。|أثر واحد على ورقة لا يكفي لتعيين الأداة. اربط ثلمة القالب بالشق في قصاصة المناوبة الموقّعة.
+error.statement|Ida’s account of the shift return tells you where the stub is filed. Her description of its split, checked against a fresh cut, identifies the punch she used.|艾達說明交班流程時，只交代了票根存放的位置。她若描述了裂口，再拿新剪出的票孔互相比對，就能認出她用的剪票鉗。|إفادة آيدا عن تسليم العهدة تحدد مكان حفظ القصاصة. وصفها للشق مع ثقب جديد مطابق يعيّن الأداة التي استخدمتها.
+proofGuide|Link the nick in the die to the split on the signed duty stub. If Ida described the cut on her duty stub, try comparing her description with a fresh cut.|比對沖模缺口與已簽名的值勤票根上的裂口。如果艾達描述了自己票根的剪痕，就拿新剪出的票孔和她的描述核對。|اربط ثلمة القالب بالشق في قصاصة المناوبة الموقّعة. إذا وصفت آيدا شكل القصّ في قصاصتها، فقارن وصفها بثقب تصنعه الآن.
+case|mittens|mittens|mittens
+title|The Red Mittens|紅色連指手套|القفازان الأحمران
+arrival|Two red mittens dry by the lamp. Sisters remember the same wool from the same winter.|一對紅手套在燈旁晾乾。姊妹倆都記得同一年冬天的這種毛線。|يجف قفازان أحمران قرب المصباح. تتذكر أختان الصوف نفسه من الشتاء نفسه.
+v.name|Bea Ash|碧雅・艾許|بيا آش
+v.role|The sister with the left glove|帶左手手套的姊姊|الأخت التي تحمل قفاز اليد اليسرى
+v.claim|Mum knitted our pairs alike. When mine split at both thumbs I darned them face to face with the same blue thread. I carried the left one in for comparison.|媽媽給我們織得一樣。我這雙的拇指都破了，我用同一條藍線，讓兩隻正對著一起補。我帶左手那隻來對。|حاكت أمي زوجينا متماثلين. وحين تمزّق زوجي عند الإبهامين رقعتهما وجهاً لوجه بالخيط الأزرق نفسه. أحضرت قفاز اليسرى للمقارنة.
+q.0|Why do the darns need to line up?|為什麼補線位置應該對得上？|لماذا ينبغي أن تتطابق الرقعتان؟
+a.0|I drew the needle back through the two thumbs before cutting the thread. The blue crossings mirror one another.|剪線前，我把針從兩隻手套的拇指一起抽回來。藍色交叉會互相對映。|سحبت الإبرة عبر الإبهامين معاً قبل قص الخيط. تقاطعات الأزرق تنعكس إحداها على الأخرى.
+q.1|Why is wool from both pairs in this tray?|為什麼托盤裡會混到兩雙的毛線？|لماذا وصل صوف الزوجين إلى هذا الصحن؟
+a.1|We dried them beside the same radiator on the tram. Iris took one by mistake when we changed lines.|我們把手套晾在電車同一個暖氣旁。換線時艾莉絲拿錯了一隻。|جففناهما قرب المدفأة نفسها في الترام. أخذت آيرس واحداً بالخطأ حين بدّلنا الخط.
+v.name|Iris Ash|艾莉絲・艾許|آيرس آش
+v.role|The sister with the right glove|帶右手手套的妹妹|الأخت التي تحمل قفاز اليد اليمنى
+v.claim|The red yarn is mine. I can still feel the exact place the cuff folds against my sleeve.|紅毛線那雙是我的。我還記得束口會在哪裡折著碰到袖子。|الصوف الأحمر لي. ما زلت أذكر بالضبط أين تنثني حافة القفاز على كمي.
+q.0|Did you patch both thumbs together?|妳兩隻拇指是一起補的嗎？|هل رقعتِ الإبهامين معاً؟
+a.0|Only one ever tore. I used a leftover red thread for it.|只有一邊破過，我拿剩下的紅線補。|لم يتمزق إلا واحد. رقعته ببقية خيط أحمر.
+q.1|Can you identify Mum's wool?|妳能認出媽媽的毛線嗎？|هل تتعرفين إلى صوف أمك؟
+a.1|Red with a fleck of grey. She bought one big ball for both of us.|紅色裡夾灰點。她買一大球，兩雙一起織。|أحمر فيه لمسة رمادية. اشترت كرة كبيرة تكفينا نحن الاثنتين.
+familiar|Red wool with grey flecks|帶灰點的紅毛線|صوف أحمر بنقط رمادية
+familiarDetail|Both pairs were knitted from one ball, so the cuff and yarn look identical.|兩雙都用同一球織成，束口和毛線看起來一樣。|حِيك الزوجان من كرة واحدة، فتتطابق الحافتان والصوف.
+f.action|Separate the overlapping cuffs|把重疊的束口分開|افصل حافتي القفازين المتداخلتين
+f.title|Identical ribbing|相同的羅紋|حافتان مضلّعتان متماثلتان
+f.detail|The cuffs carry the same count of ribs. Turn the mittens palm up to get to the thumbs.|束口的羅紋數一樣。把手套掌面向上才看得到拇指。|عدد الأضلاع في الحافتين واحد. اقلب القفازين وراحتاهما إلى أعلى لتصل إلى الإبهامين.
+f.action|Flatten the right and left thumb seams|把左右拇指的縫拉平|افرد درزَي الإبهام الأيمن والأيسر
+f.title|Blue thread on both thumbs|兩邊拇指都有藍線|خيط أزرق على الإبهامين
+f.detail|Both repairs have three crossings. One line leaves the right thumb where the other starts on the left.|兩處都補了三個交叉。右拇指離線的位置正對左拇指起線。|في كل رقعة ثلاثة تقاطعات. ينتهي الخيط على الإبهام الأيمن حيث يبدأ على الأيسر.
+f.action|Bring the right darn against Bea's left|把右手補線和碧雅的左手比合|طابق الرقعة اليمنى بقفاز بيا الأيسر
+f.title|Mirrored blue darning|對映的藍線修補|رتق أزرق متناظر
+f.detail|The end crosses marry when the thumbs touch. Bea's left is the mate of the loose right mitten.|兩拇指貼上時，收尾的交叉正好接起。碧雅的左手套和遺失的右手套是一對。|يلتقي تقاطع الطرفين عند تلامس الإبهامين. قفاز بيا الأيسر قرين القفاز الأيمن الضائع.
+error.owner|Iris remembers a single red patch. The loose mitten carries the second half of Bea's blue repair.|艾莉絲記得自己只有一處紅線修補。失物上是碧雅藍線修補的另一半。|تتذكر آيرس رقعة حمراء واحدة. ويحمل القفاز الضائع النصف الآخر من رتق بيا الأزرق.
+error.evidence|‘Mum made both pairs from that,’ Bea says. ‘Lay the thumbs together and you can see where I pulled the thread through.’|「媽媽兩雙都用那球，」碧雅說。「把拇指靠在一起，就看得出我從哪裡抽線。」|تقول بيا: «حاكت أمي الزوجين من الصوف نفسه. قرب الإبهامين لترى موضع سحب الخيط».
+error.mechanism|Press the thumb seams flat before comparing them.|先把拇指的接縫壓平，再比對。|افرد درزَي الإبهامين قبل المقارنة.
+letter|Bea buttons both mittens to her coat. Before they leave the tram stop, she offers Iris the rest of the blue thread for a repair of her own.|碧雅把兩隻手套扣在外衣上。離開車站前，她把剩下的藍線給艾莉絲，讓她也能補自己的。|تثبّت بيا القفازين في معطفها. وقبل مغادرة المحطة تعطي آيرس بقية الخيط الأزرق لتستعمله في إصلاح قفازها.
+case|glasses|glasses|glasses
+title|The Spectacle Case|眼鏡盒|علبة النظارات
+arrival|A clamshell case has gone soft at the lip. Two people say the green lining came from their family cupboard.|翻蓋盒的開口磨軟了。兩人都說綠襯裡的布來自自家的櫃子。|لان طرف علبة النظارات المطبقة. يقول شخصان إن القماش الأخضر في بطانتها من خزانة عائلتهما.
+v.name|Phoebe Dane|菲比・戴恩|فيبي دين
+v.role|The optician's daughter|眼鏡師的女兒|ابنة النظّاراتي
+v.claim|I cut the lining after I broke Dad's old case. That makes it easy to remember how it feels.|我弄壞爸爸舊眼鏡盒後，親手裁了襯裡。所以一摸就認得。|قصصت البطانة بعدما كسرت علبة أبي القديمة. لذا أتذكر ملمسها بسهولة.
+q.0|Who took it home after the repair?|修好後，誰把眼鏡盒帶回家？|من أخذها إلى البيت بعد الإصلاح؟
+a.0|I sent it to Simon, my stepfather. His old frames fitted better than Dad's replacement pair.|我送去給繼父賽門。他的舊框比爸爸換的新框更合。|أرسلتها إلى سايمون، زوج أمي. كان إطاراه القديمان أنسب لها من إطارَي أبي الجديدين.
+q.1|What fabric could you recognise?|妳認得的是哪一種布？|أي نسيج تتعرفين إليه؟
+a.1|Green felt from the optician's sample drawer. I lined several cases with it that month.|眼鏡店樣品抽屜裡的綠毛氈。那個月我拿同一塊襯過好幾個盒子。|لبّاد أخضر من درج العينات في محل النظّارات. بطّنت به عدّة علب ذلك الشهر.
+v.name|Simon Dane|賽門・戴恩|سايمون دين
+v.role|The reader with the bent frames|拿歪眼鏡的讀者|القارئ ذو النظارة الملتوية
+v.claim|Phoebe gave me the case. I travelled with it and the old frames until the left bow bent. I keep the glasses in my pocket now.|菲比把盒子送給我。我旅行時帶著盒子和舊眼鏡，直到左鏡腳彎了。眼鏡現在放口袋。|أهدتني فيبي العلبة. كنت أسافر بها وبنظارتي القديمة إلى أن انحنت الذراع اليسرى. أحمل النظارة في جيبي الآن.
+q.0|How did you lay the glasses inside?|你怎麼把眼鏡放進盒裡？|كيف كنت تضع النظارة في الداخل؟
+a.0|Left bow inward, because the bend caught the case's lip otherwise. It left a little kick in the felt at the bridge end.|左鏡腳朝內，不然彎處會勾住邊。鼻橋那端的氈上留了個小折印。|أطوي الذراع اليسرى إلى الداخل كي لا تعلق بحافة العلبة. ترك الانحناء أثراً صغيراً في اللبّاد قرب الجسر.
+q.1|Is there a gift note?|盒子附了贈送字條嗎？|هل توجد بطاقة مع الهدية؟
+a.1|Inside the seam, I think. She tagged my lens order with it.|我想在接縫裡。她用那張標記我訂的鏡片。|أظنها داخل الدرز. علّمت بها طلب عدساتي.
+familiar|Green optician's felt|眼鏡店的綠毛氈|لبّاد محل النظّارات الأخضر
+familiarDetail|Phoebe cut the felt for several cases from the same roll.|菲比從同一卷裁布，襯過好幾個盒子。|قصّت فيبي من لفة واحدة بطانات لعدّة علب.
+f.action|Lift the clasp and inspect the edge|掀起扣子，查看盒緣|ارفع المشبك وافحص الحافة
+f.title|Worn lip|磨軟的盒緣|حافة مهترئة
+f.detail|The clasp closes, but a little fabric has pulled away from the rim.|扣子能扣上，但邊緣有一小塊布鬆開了。|يُغلق المشبك، لكن قطعة قماش صغيرة انفصلت عن الحافة.
+f.action|Spread the loose lining apart|撥開鬆脫的襯布|باعد بين طرفَي البطانة المرتخية
+f.title|Impression under the lining|襯裡底下的壓痕|أثر تحت البطانة
+f.detail|The felt holds two oval impressions and a bent imprint close to the bridge.|毛氈上有兩個橢圓壓痕，鼻橋附近還有一道彎印。|يحمل اللبّاد طبعتين بيضويتين وأثراً منحنياً قرب الجسر.
+f.action|Fit Simon's frames into the impressions|把賽門的鏡框放進壓痕|ضع إطار سايمون فوق الطبعتين
+f.title|Fitted frame and gift tag|吻合的鏡框與贈送標籤|إطار مطابق وبطاقة هدية
+f.detail|The bent bow drops into the groove and exposes a tiny lens-order tag in the seam addressed to Simon.|彎曲的鏡腳落入凹痕，露出接縫裡寫著賽門的小張鏡片訂單。|تستقر الذراع المنحنية في الأخدود وتكشف بطاقة صغيرة في الدرز لطلب عدسات باسم سايمون.
+error.owner|Phoebe fitted the liner and gave the finished case away. The seam keeps the name of the recipient.|菲比裝了襯布，做完便把盒子送人。接縫留著收禮人的名字。|ركّبت فيبي البطانة ثم أهدت العلبة. يظل اسم المتلقّي محفوظاً في الدرز.
+error.evidence|‘I remember her felt too,’ Simon says. ‘Try laying my glasses against the dents.’|「我也記得她的毛氈，」賽門說。「試著把我的眼鏡放進那些壓痕。」|يقول سايمون: «أتذكر لبّادها أيضاً. جرّب أن تضع نظارتي فوق الطبعات».
+error.mechanism|Lift the lining to expose the full impressions.|掀起襯裡，才看得全壓痕。|ارفع البطانة لكشف الطبعتين كاملتين.
+letter|Simon puts the glasses back in their case. Phoebe offers to straighten the bow. He asks her to leave it until after he has read the end of his book.|賽門把眼鏡放回盒裡。菲比說可以修直鏡腳，他請她等他先看完手上這本書。|يعيد سايمون النظارة إلى العلبة. تعرض فيبي تقويم الذراع، فيطلب أن تنتظر إلى أن ينتهي من قراءة كتابه.
+
+case|metronome|metronome|metronome
+title|The Rehearsal Metronome|彩排節拍器|ضابط إيقاع البروفة
+arrival|A wooden metronome rocks on the baize. Two musicians tap the same opening tempo on the counter.|木製節拍器在桌氈上搖晃。兩位樂手在櫃臺上敲出同樣的起拍速度。|يتأرجح ضابط إيقاع خشبي على اللباد. ينقر موسيقيان سرعة البداية نفسها على المنضدة.
+v.name|Lydia Crane|莉迪亞・克蘭|ليديا كرين
+v.role|The rehearsal pianist|彩排鋼琴師|عازفة بيانو البروفة
+v.claim|I signed out the hall's practice metronome. I pencilled a note when its fourth strike started waiting longer; the pause was ruining entrances.|我從排練廳簽領節拍器。第四下開始慢半拍時，我用鉛筆做了記號，那個停頓老是害大家進錯。|تسلّمت ضابط الإيقاع من القاعة بالتوقيع. دوّنت ملاحظة بالرصاص حين صار يتأخر في الضربة الرابعة، فقد أربكت الوقفة دخول العازفين.
+q.0|Which strike causes the trouble?|是哪一下出了問題？|أي ضربة تسبّب المشكلة؟
+a.0|The fourth. Everyone begins together, then holds a breath too long before coming back in.|第四下。大家一開始都整齊，等要再進來時，那一口氣拖太久了。|الرابعة. يبدأ الجميع معاً، ثم يطول انقطاع النفس قبل دخولهم ثانية.
+q.1|Where is your note filed?|妳的筆記收在哪裡？|أين حُفظت ملاحظتك؟
+a.1|Pinned under the piano lid on the hall inventory sheet. I signed the issue line and the repair request there.|別在琴蓋底下的排練廳器材單上。領用欄和送修申請都有我的簽名。|هي مثبتة تحت غطاء البيانو على كشف عهدة القاعة. وقّعت هناك سطر الاستلام وطلب الإصلاح.
+v.name|Felix Marr|菲利克斯・馬爾|فيليكس مار
+v.role|The pupil with the tempo chart|拿速度表的學生|التلميذ صاحب جدول السرعات
+v.claim|That metronome lived on my piano for a month. My tutor said I could use it for the whole run of rehearsals.|那台在我鋼琴上放了一個月。老師說整段排練期間我都可以用。|ظلّ على البيانو عندي شهراً. قال معلّمي إنني أستطيع استخدامه طوال البروفات.
+q.0|Did the beat change at home?|你在家有聽到變拍嗎？|هل تغيّر الإيقاع في البيت؟
+a.0|I practised the opening bars at the marked tempo. I reset it before I got far enough to tell.|我照標的速度練開頭幾小節。還沒聽出變化就重開了。|تمرّنت على الموازير الأولى بالسرعة المعلّمة. كنت أضبطه من جديد قبل أن أعرف.
+q.1|Who signed for your loan?|誰為你簽借用？|من وقّع على استعارتك؟
+a.1|Lydia brought it over. She said the hall needed it back before the dress rehearsal.|莉迪亞拿來的。她說總彩排之前排練廳要收回去。|أحضرته ليديا وقالت إن القاعة تحتاجه قبل البروفة العامة.
+familiar|Marked opening tempo|標出的起始速度|سرعة البداية المعلّمة
+familiarDetail|Both played the first bars at seventy-two. The weight's setting alone tells you nothing about the delayed note.|兩人開頭都用七十二拍。單看滑錘的位置，分辨不出哪一下延遲。|عزف الاثنان الموازير الأولى بسرعة اثنتين وسبعين. موضع الثقل وحده لا يكشف الضربة المتأخرة.
+f.action|Read the weight on the scale|讀取刻度上滑錘的位置|اقرأ موضع الثقل على التدريج
+f.title|Weight at seventy-two|滑錘停在七十二|الثقل عند اثنتين وسبعين
+f.detail|The pencil line crosses seventy-two. Turn the metronome to release the transport catch.|鉛筆線劃過七十二。轉到背面，才能鬆開運送固定扣。|يمر خط الرصاص عند اثنتين وسبعين. أدر الضابط لفك قفل النقل.
+f.action|Release the catch and run five beats|鬆開固定扣，跑五拍|فك القفل وشغّل خمس ضربات
+f.title|The gap before four|第四下之前的空隙|الفجوة قبل الرابعة
+f.detail|Ticks one, two and three come evenly. Four waits, then five returns to the first interval. The strip shows the longer gap.|一、二、三同樣間距。第四下暫等，第五下又回到原來的間距。節拍列呈現較長的空隙。|تأتي الأولى والثانية والثالثة بفواصل متساوية. تتريث الرابعة، ثم تعود الخامسة إلى الفاصل الأول. يبيّن الشريط الفجوة الأطول.
+f.action|Compare the delayed beat with the rehearsal note|拿延遲的那一下核對彩排筆記|قارن الضربة المتأخرة بملاحظة البروفة
+f.title|Lydia's annotated issue sheet|莉迪亞有備註的領用單|ورقة استلام ليديا المشروحة
+f.detail|The fourth mark is stretched on Lydia's signed hall sheet. Her repair request describes the loose stop behind the catch.|莉迪亞簽名的器材單上，第四個記號被拉長。送修申請寫了固定扣後面鬆動的擋片。|العلامة الرابعة ممتدة على كشف القاعة الموقّع من ليديا. ويصف طلب صيانتها المصدّ المرتخي خلف القفل.
+error.owner|Felix had permission to practise. The hall's issue sheet still requires Lydia to return the instrument.|菲利克斯獲准拿去練習。排練廳器材單上負責歸還的仍是莉迪亞。|كان لفيليكس إذن بالتمرين. لا يزال كشف القاعة يلزم ليديا بردّ الأداة.
+error.evidence|‘The opening tempo is on every pupil's chart,’ Lydia says. ‘The fault in the fourth beat is on my issue sheet.’|「每個學生的表都有起速，」莉迪亞說。「領用單上才有第四拍的毛病。」|تقول ليديا: «سرعة البداية على جدول كل تلميذ. عطل الضربة الرابعة على ورقة استلامي».
+error.mechanism|Run the pendulum and follow the gap on the strip.|啟動擺錘，找節拍列上的空隙。|شغّل الرقّاص وتتبّع الفجوة على الشريط.
+letter|Lydia takes the metronome to the hall's repair shelf. For that night's rehearsal the pupils take turns tapping time on the piano lid.|莉迪亞把節拍器放到排練廳的待修架。那一晚，學生輪流在琴蓋上敲拍子。|تضع ليديا الضابط على رف الإصلاح في القاعة. في بروفة تلك الليلة يتناوب الطلاب على نقر الإيقاع فوق غطاء البيانو.
+error.physical|The two musicians know the same tempo. Pair the recorded delay before beat four with Lydia’s signed issue sheet.|兩位音樂家都知道同一個速度。請把第四拍前實測的停頓與莉迪亞簽名的領用單一起核對。|كلا الموسيقيين يعرف الإيقاع نفسه. أرفق الوقفة المقاسة قبل الضربة الرابعة باستمارة الاستلام الموقّعة من ليديا.
+error.statement|The delay before four identifies the instrument. For a witness route, pair that delay with Felix’s account of the loan and of who had to return it.|第四拍前的停頓能辨認這台節拍器。若採用證詞，需把這段停頓與費利克斯對借用經過和歸還責任的說法一起核對。|الوقفة قبل الضربة الرابعة تميّز الرقّاص. إن اعتمدت على شاهد، فاجمع تلك الوقفة وإفادة فيليكس عن الإعارة ومن كان عليه إعادة الرقّاص.
+proofGuide|Pair the delay before beat four with Lydia’s repair request, or with Felix’s account of who lent it to him and who needed it back.|把第四拍前的停頓與莉迪亞的維修申請核對，也可以與費利克斯對借用經過和歸還責任的說法核對。|اربط الوقفة قبل الضربة الرابعة بطلب إصلاح ليديا، أو بإفادة فيليكس عمن أعاره الرقّاص ومن كان عليه إعادته.
+
+case|lantern|lantern|lantern
+title|The Signal Lantern|信號燈|فانوس الإشارة
+arrival|A stage lantern still smells of warmed brass. Two crew members know the amber cue by heart.|舞臺信號燈還有溫熱黃銅的氣味。兩位工作人員都熟背琥珀色提示。|تفوح من فانوس المسرح رائحة النحاس الدافئ. يحفظ اثنان من الطاقم إشارة اللون الكهرماني.
+v.name|Rafi Cole|拉菲・科爾|رافي كول
+v.role|The scene painter|布景畫師|رسّام المناظر
+v.claim|I painted the lantern's call plate. Its light was above my paint table for an entire tour.|燈的提示板是我畫的。整趟巡演，它都在我畫桌上方照著。|أنا الذي طلى لوحة الإشارات في الفانوس. ظل ضوؤه فوق طاولة ألواني طوال جولة كاملة.
+q.0|Which setting lit your table?|你畫桌用的是哪一格？|أي وضع كان ينير طاولتك؟
+a.0|Amber, at the first click. It made the wet paint easy to judge.|第一格琥珀色。濕顏料的顏色比較好看準。|الكهرماني عند النقرة الأولى. كان يسهّل تمييز اللون الرطب.
+q.1|Who checked it out of the stores?|誰從庫房領走了燈？|من تسلّمه من المخزن؟
+a.1|June checked out the practicals. She let me keep this one over the table until we went on.|瓊恩領用劇中會亮的道具。上演前，她准我把這盞留在桌上。|تسلّمت جون أضواء العرض. سمحت لي بإبقاء هذا فوق الطاولة حتى يبدأ العرض.
+v.name|June Ward|瓊恩・沃德|جون وورد
+v.role|The lighting chief|燈光領班|رئيسة الإضاءة
+v.claim|The lantern is in my sign-out book. The first two stops merely paint the call sheet. I filed a blue slit in the third so I could read the registration from behind a curtain.|信號燈登在我的領用簿。前兩格只會照上提示單正面。我在第三格銼了藍光縫，人在簾後也讀得到登記號。|الفانوس في سجل استلامي. الموضعان الأولان يضيئان وجه ورقة الإشارات. بردت شقاً أزرق في الثالث لأقرأ رقم التسجيل من وراء الستارة.
+q.0|What comes through at the third stop?|第三格會透出什麼？|ماذا يمرّ في الموضع الثالث؟
+a.0|A narrow blue bar at the seam. Set it all the way past green to find it.|接縫會透出一條細藍光。要轉過綠色到底才看得到。|شريط أزرق رفيع عند الوصلة. أدره إلى ما بعد الأخضر لتراه.
+q.1|Why did Rafi use it every night?|拉菲為什麼每晚都用這盞？|لماذا كان رافي يستعمله كل ليلة؟
+a.1|We shared the first amber cue for painting tests. Working with it was part of his job.|我們用第一格琥珀色試漆。用這盞燈是他工作的一部分。|استعملنا إشارة الكهرماني الأولى لاختبار الطلاء. كان استعماله جزءاً من عمله.
+familiar|Amber cue paint|琥珀色提示漆|طلاء الإشارة الكهرمانية
+familiarDetail|Rafi chose the amber coat, and the whole crew knew how it looked.|琥珀色是拉菲選的，全團都知道看起來什麼樣。|اختار رافي الطلاء الكهرماني، وكان الطاقم كله يعرف مظهره.
+f.action|Read the painted call plate|讀取有油漆的提示板|اقرأ لوحة الإشارات المطلية
+f.title|Amber call plate|琥珀色提示板|لوحة الإشارة الكهرمانية
+f.detail|The plate sits on the lit face. Around the back you can feel three shutter stops cut into the rim.|提示板在亮的那一面。背面邊緣摸得到色片的三個定位卡槽。|اللوحة على الوجه المضاء. في الخلف تتحسّس ثلاثة مواضع للمصراع محفورة في الحافة.
+f.action|Test the shutter against the call sheet|用提示單測試色片|اختبر المصراع على ورقة الإشارات
+f.title|Blue slit at stop three|第三格的藍光縫|شق أزرق في الموضع الثالث
+f.detail|At the third detent a thin blue bar escapes over the paper's edge. Amber and green light only the painted face.|第三格有細藍光從紙邊漏出。琥珀和綠色只照到有漆的正面。|عند الموضع الثالث يخرج شريط أزرق رفيع فوق حافة الورقة. الكهرماني والأخضر يضيئان الوجه المطلي فقط.
+f.action|Read the registration in the blue bar|用藍光讀登記號|اقرأ رقم التسجيل في الشريط الأزرق
+f.title|June's hidden registration|瓊恩隱藏的登記號|رقم تسجيل جون المخفي
+f.detail|The light picks out 7–W behind the plate. June signed lamp 7–W out; the paint ledger only lists Rafi's colour mix.|光照出板後的 7–W。7–W 號燈由瓊恩簽領，油漆簿只記拉菲調的顏色。|يظهر الضوء رقم 7–W وراء اللوحة. تسلّمت جون مصباح 7–W بالتوقيع، أما سجل الطلاء فلا يذكر سوى خليط رافي.
+error.owner|Rafi's paint record lists a colour mix. The lit registration number ties this lantern to June's signed stores issue.|拉菲的油漆紀錄只列調色。照出的登記號對到瓊恩從庫房簽領的燈。|سجلّ رافي للطلاء يذكر خليط الألوان. رقم التسجيل المضاء يربط هذا الفانوس بقيد استلام جون الموقّع.
+error.evidence|‘We all saw amber,’ June says. ‘Find the third stop and read what the light picks out.’|「大家都見過琥珀色，」瓊恩說。「找到第三格，讀光照出的東西。」|تقول جون: «رأينا جميعاً الكهرماني. ابحث عن الموضع الثالث واقرأ ما يكشفه الضوء».
+error.mechanism|Rotate past green and hold the paper edge in the blue light.|轉過綠色，讓紙邊進入藍光。|أدره بعد الأخضر وضع حافة الورقة في الضوء الأزرق.
+letter|June carries the lantern back to the flies. Rafi touches up the amber paint, carefully leaving the little blue slit clear.|瓊恩把燈帶回舞臺吊景區。拉菲補了琥珀色，小心留出那道藍光縫。|تعيد جون الفانوس إلى منطقة حبال المسرح. يرمّم رافي طلاء الكهرماني، حريصاً على إبقاء الشق الأزرق مفتوحاً.
+error.physical|The call plate only shows who painted it. Use the blue slit at the third stop and the registration it reveals to establish who signed it out.|漆牌只能證明是誰上漆。用第三段的藍色細光和它照出的登記號，找出簽領這盞燈的人。|لوحة الطلاء تدل على من طلاها فحسب. استخدم الشق الأزرق عند الوقفة الثالثة ورقم التسجيل الذي يكشفه لمعرفة من وقّع على الاستلام.
+error.statement|The amber cue explains why Rafi used the lamp. Look for his account of who signed it out and test June’s blue slit at the third stop to identify the lamp.|琥珀色燈光只解釋了拉菲為何用過燈。要確認是哪一盞，請核對他所說的簽領人，並實測瓊恩留在第三段的藍色細光。|الضوء الكهرماني يوضح سبب استخدام رافي للمصباح. لتحديد المصباح، راجع إفادته عمن وقّع على الاستلام واختبر شق جون الأزرق عند الوقفة الثالثة.
+proofGuide|Use the blue slit at the third stop with the hidden registration. Rafi’s account of who signed the lamp out can stand in for the registration once you’ve tested the blue slit.|找出第三段的藍色細光，和它照出的隱藏登記號並用。測過藍光以後，也可用拉菲對領用人的說法取代登記號。|اجمع بين الشق الأزرق عند الوقفة الثالثة ورقم التسجيل الخفي. وبعد اختبار الشق يمكنك إرفاق إفادة رافي عمن وقّع على استلام المصباح بدلاً من الرقم.
+
+case|puppet|puppet|puppet
+title|The Red Marionette|紅色提線偶|الدمية الحمراء
+arrival|A marionette with replaceable hands lies across the desk. One visitor remembers every gesture, the other every joint.|可換手掌的提線偶橫躺在桌上。一人記得每個動作，另一人記得每個關節。|ترقد دمية بيدين قابلتين للتبديل على المكتب. يتذكر أحد الزائرين كل حركة والآخر كل مفصل.
+v.name|Ruth Finch|露絲・芬奇|روث فينش
+v.role|The puppet maker|製偶師|صانعة الدمى
+v.claim|I built her on commission. The red puppet lives with me between shows for service, under the maker's return agreement. I cut different pegs into the two wrists.|它是我接單做的。依維護歸還約定，演出空檔由我保養。我給兩隻手腕削了不同插榫。|صنعتها بطلب خاص. وبين العروض تبقى عندي للصيانة بموجب اتفاق إعادتها للصانعة. قطعت لكل معصم وتداً مختلفاً.
+q.0|How do you know which hand fits?|妳怎麼知道哪隻手裝哪邊？|كيف تعرفين أي يد تلائم كل معصم؟
+a.0|Dovetail on the right, square on the left. There's a page in my wrist kit with the return agreement on the back.|右邊燕尾榫、左邊方榫。手腕工具包裡有張圖，背後就是歸還約。|ذيل حمامة على اليمين ومربّع على اليسار. في علبة المعصم ورقة، على ظهرها اتفاق الإعادة.
+q.1|Why would the touring company keep a bakery slip there?|巡演劇團怎麼把麵包店存根放在那裡？|لماذا تحفظ الفرقة الجوالة قسيمة مخبز هناك؟
+a.1|Eli used to carry our props between his bakery shifts. We agreed the troupe's trunk should follow his apprentice record and our wrist-kit receipt when it travelled without its own tag.|伊萊以前在麵包店換班時順手幫忙搬道具。劇團的大箱若沒掛牌出門，要照他的學徒紀錄和手腕工具包收據轉交。|كان إيلاي ينقل أدواتنا بين نوبات المخبز. اتفقنا أن يتبع صندوق الفرقة قيد تدرّبه وإيصال علبة المعصم إذا سافر بلا بطاقته.
+v.name|Kit Warren|基特・華倫|كيت وارن
+v.role|The understudy|替補演員|المؤدّي البديل
+v.claim|I played her during the tour. The red dress and the wave are mine from muscle memory alone.|巡演時是我操偶。紅裙子和揮手動作，我的手閉著眼都記得。|حرّكتها أثناء الجولة. أتذكر الفستان الأحمر والتلويحة بحركة يدي من كثرة التدريب.
+q.0|Did you remove both hands?|你拆過兩隻手掌嗎？|هل نزعت اليدين؟
+a.0|I undid a string to change the gestures, but Ruth showed me the hands already assembled.|我解過線來換動作，露絲示範時手掌已經裝好了。|فككت خيطاً لتغيير الحركة، لكن روث أرَتني اليدين وهما مركّبتان.
+q.1|Who kept her after the last show?|末場演完誰保管它？|من احتفظ بها بعد العرض الأخير؟
+a.1|I put her into the touring crate. The agreement sends her to Ruth for repairs between bookings.|我放她進巡演箱。按約，檔期空隙交回露絲維護。|وضعتها في صندوق الجولة. الاتفاق يعيدها إلى روث للإصلاح بين العروض.
+familiar|Red dress and open wave|紅裙與張手揮動|الفستان الأحمر وتلويحة الكف
+familiarDetail|Anyone watching the tour can copy the open-handed wave. The dress travelled on every stage.|看過巡演的人都能學張手揮動。每場都有這件紅裙。|كل من شاهد الجولة يستطيع تقليد تلويحة الكف المفتوحة. ظهر الفستان على كل مسرح.
+f.action|Untangle the control strings|解開操控線|فك تشابك خيوط التحريك
+f.title|Travel knots|運送用線結|عُقد النقل
+f.detail|The arm cords are tied against the control bar for travel. The sockets are under the cuffs.|為運送，手臂的線綁在控制桿上。插槽藏在袖口下面。|ربطت خيوط الذراعين بعارضة التحريك للنقل. المقابس تحت الأكمام.
+f.action|Slide both spare hands out of their sockets|把兩隻替換手從插槽退出|أخرج اليدين البديلتين من مقابسهما
+f.title|Square and dovetail sockets|方形和燕尾形插槽|مقبس مربع ومقبس ذيل حمامة
+f.detail|The left hand uses a square peg. The right has a dovetail shoulder that prevents a twist during the wave.|左手用方榫，右手燕尾榫有肩，揮手時不會轉位。|في اليد اليسرى وتد مربّع. وفي اليمنى كتف على شكل ذيل حمامة يمنع الالتواء أثناء التلويح.
+f.action|Fit the pegs to the maker's drawing|把插榫對上製偶師的草圖|طابق الوتدين مع رسم الصانعة
+f.title|Maker's drawing and return agreement|製作草圖和歸還協議|رسم الصانعة واتفاق الإعادة
+f.detail|Both different pegs match Ruth's drawing. The signed reverse puts the marionette in her care between shows.|兩個不同的榫都和露絲的圖相符。背面有簽名，演出空檔由她保管。|يطابق الوتدان المختلفان رسم روث. وعلى الظهر الموقّع تكون الدمية في رعايتها بين العروض.
+error.owner|Kit performed with the marionette. The signed maker agreement routes repair and storage to Ruth between shows.|基特在巡演中操偶。簽署的製作協議指定露絲在檔期空隙維修保管。|أدّى كيت بالدمية. اتفاق الصانعة الموقّع يسند الإصلاح والحفظ إلى روث بين العروض.
+error.evidence|‘The audience saw that wave too,’ Ruth says. ‘The wrist joints will answer what the costume cannot.’|「觀眾也看過那個揮手，」露絲說。「衣服答不出來的，手腕關節可以。」|تقول روث: «رأى الجمهور التلويحة أيضاً. ستجيب الوصلتان عما لا يجيب عنه الزي».
+error.mechanism|Pull out each hand before reading the drawing.|先抽出兩隻手，再看草圖。|أخرج كل يد قبل قراءة الرسم.
+letter|Ruth takes the puppet home to wax the sockets. She files the wrist-kit and apprenticeship copy with this receipt, marked for the untagged touring trunk and stagehand Elsie Holt.|露絲把偶帶回去，給榫槽上蠟。她把手腕工具包及學徒紀錄副本連同本張收據歸檔，註明交給無牌巡演箱案與舞臺助手艾爾西・霍爾特。|تأخذ روث الدمية إلى البيت لتشمّع المقابس. تحفظ نسخة علبة المعصم والتدرّب مع هذا الإيصال، وتضع علامة أنها للصندوق الجوال بلا بطاقة ولعاملة المسرح إلسي هولت.
+
+case|camera|camera|camera
+title|The Folding Camera|摺疊相機|الكاميرا القابلة للطي
+arrival|The last picture in an envelope is streaked. One claimant developed it, and the other loaded the test roll.|信封裡最後一張照片有道線。一位認領人沖洗了它，另一位裝入試拍底片。|في الصورة الأخيرة داخل الظرف خط. حمّضها أحد المطالبين وركّبت الأخرى بكرة الاختبار.
+v.name|Noel Birch|諾爾・伯奇|نويل بيرش
+v.role|The darkroom technician|暗房技師|فنّي الغرفة المظلمة
+v.claim|I developed the roll. This model was my first camera, and the streak looks just like the drying mark on mine.|這卷是我沖的。我第一台也是這款，這條線就像我那台照片晾乾的痕。|حمّضت البكرة. كان هذا الطراز كاميرتي الأولى، والخط يشبه تماماً علامة التجفيف في صوري.
+q.0|Did the line move with the paper?|那條線會隨相紙位置移動嗎？|هل تحرّك الخط مع الورق؟
+a.0|I thought so at first. It bends at the same place on two exposures, though. Drying marks are usually longer.|本來以為會。可是兩張曝光彎在同一處。晾乾的痕通常更長。|ظننت ذلك أولاً، لكنه ينحني في الموضع نفسه على تعريضين. آثار التجفيف أطول عادة.
+q.1|Who loaded the test roll?|試拍底片是誰裝的？|من ركّب بكرة الاختبار؟
+a.1|Anya did. She signed the developing envelope and asked me to leave the little notch in the crop uncropped.|安雅裝的。她在沖洗信封簽名，請我印相時保留那小缺角。|ركّبتها آنيا. وقّعت ظرف التحميض وطلبت أن أبقي الثلمة الصغيرة من دون قص.
+v.name|Anya Keel|安雅・基爾|آنيا كيل
+v.role|The photographer|攝影師|المصوّرة
+v.claim|I own the camera. I wrote the repair shop about a bent scratch inside its gate and brought the test frame. It should register over the metal when you lay it in the correct orientation.|相機是我的。我寫信給維修店說片窗內有折角刮痕，還帶了試拍片。正確方位放進去，刮痕應該和金屬吻合。|الكاميرا لي. كتبت للورشة عن خدش منحنٍ داخل نافذة الفيلم وأحضرت إطار الاختبار. ينبغي أن ينطبق على المعدن إذا وضعته في الاتجاه الصحيح.
+q.0|Where does the streak turn?|那道線在哪裡轉折？|أين ينعطف الخط؟
+a.0|Just before the lower right edge of the gate. The little kink points back towards the centre.|接近片窗右下邊緣。那個小折角往中心折回去。|قبيل الحافة اليمنى السفلى من النافذة. تعود الثلمة الصغيرة نحو الوسط.
+q.1|Where is the repair docket?|維修單在哪裡？|أين بطاقة الإصلاح؟
+a.1|Clipped to the test frame. The shop drew the line onto it when I dropped the camera off.|夾在試拍片上。我送相機去時，店裡把那條線描在單上。|مثبتة بإطار الاختبار. رسمت الورشة الخط عليها عندما سلّمت الكاميرا.
+familiar|A streak on the print|相片有線痕|خط على الطبعة
+familiarDetail|The darkroom envelope is shared. A streak may be a drying mark or a fault inside the camera.|沖洗信封是兩人都碰過的。線痕可能是乾燥印，也可能是相機裡的傷。|ظرف الغرفة المظلمة مشترك. قد يكون الخط أثر تجفيف أو عطلاً داخل الكاميرا.
+f.action|Check the embossed shutter ring|查看浮雕快門環|افحص حلقة الغالق البارزة
+f.title|Common shutter ring|常見的快門環|حلقة غالق شائعة
+f.detail|The ring was fitted across the production run. Turn over the camera to inspect its frame window.|整批產品都裝同款環。翻到背面檢查片窗。|رُكّبت الحلقة في الدفعة كلها. اقلب الكاميرا وافحص نافذة الإطار.
+f.action|Open the camera back and trace the gate scratch|打開機背，描過片窗刮痕|افتح الظهر وتتبّع خدش نافذة الفيلم
+f.title|Scratched film gate|有刮痕的片窗|نافذة فيلم مخدوشة
+f.detail|The metal has one diagonal kink beside the lower right corner. The test frame is translucent enough to register over it.|金屬右下角旁有一道斜刮痕，中間轉折。試拍片夠透，可以覆在上面對位。|في المعدن خدش مائل منعطف قرب الركن الأيمن السفلي. إطار الاختبار شفاف بما يكفي لمحاذاته فوقه.
+f.action|Check the scratch against the overlapping test frame|用重疊的試拍片核對刮痕|تحقّق من الخدش فوق إطار الاختبار المتراكب
+f.title|Test frame and repair docket|試拍片與維修單|إطار الاختبار وبطاقة الإصلاح
+f.detail|The two kinks collapse to a single line. The docket clipped to the test frame carries Anya's repair-return signature.|兩個折角對成同一條線。試拍片所夾的單子上，是安雅簽的修後交還欄。|ينطبق الانحناءان في خط واحد. بطاقة الإصلاح المثبّتة بإطار الاختبار تحمل توقيع آنيا لاستلام الكاميرا بعد صيانتها.
+error.owner|Noel processed the film. His drying streak would move with the paper, and the return docket belongs to Anya.|諾爾沖洗了底片。晾乾痕會隨相紙移動，維修交還單才寫安雅。|حمّض نويل الفيلم. أثر التجفيف لديه يتحرك مع الورق، وبطاقة الرد باسم آنيا.
+error.evidence|‘Show the scratch in the metal and the same shape on the developed frame,’ Anya says. ‘You need both sides of the match.’|「把金屬刮痕和沖好的底片形狀都出示，」安雅說。「兩邊都要對上。」|تقول آنيا: «أرني خدش المعدن والشكل نفسه على الإطار المحمّض. يلزم طرفا المطابقة».
+error.mechanism|Open the back before aligning the test frame.|先開機背，再對準試拍片。|افتح الظهر قبل محاذاة إطار الاختبار.
+letter|Anya takes the camera back to the repair shop. She keeps the first streaked print as a reminder of the morning she took it.|安雅把相機帶回維修店。她留下第一張帶刮線的照片，記住按快門的那個早上。|تعيد آنيا الكاميرا إلى الورشة. تحتفظ بأول طبعة مخطوطة لتتذكر الصباح الذي التقطتها فيه.
+
+case|keys|keys|keys
+title|The Warded Keys|古鎖鑰匙串|مفاتيح القفل ذي الحواجز
+arrival|A bunch of four brass keys rattles in a dish. Two locksmiths recognise the stamped ring.|一串四把黃銅鑰匙在淺盤碰響。兩位鎖匠都認得有戳記的環。|تخشخش أربعة مفاتيح نحاسية في صحن. يتعرّف قفّالان إلى الحلقة المختومة.
+v.name|May Lind|梅・林德|ماي ليند
+v.role|The workshop custodian|工坊保管員|أمينة الورشة
+v.claim|The set was issued to me when our furnace room was secured. I cut the short square and deep step in different stock, and kept the carbon impression with my return slip.|爐房上鎖時配給我這串。短方齒和深階齒用了不同胚料，複寫壓痕和交還存根放在一起。|سُلّمت لي المجموعة عند تأمين غرفة الفرن. قطعت المربع القصير والدرجة العميقة من قطعتين مختلفتين، وحفظت الطبعة الكربونية مع قسيمة الرد.
+q.0|Which two teeth clear the wards?|哪兩個齒形過得了擋片？|أي سنين يجتازان الحاجزين؟
+a.0|The short square clears the ledge. The deep step drops behind the inner ward. Test both against the plate before trying the carbon.|短方齒能過凸臺，深階齒能沉到內擋片後。描碳印前，先讓兩個在鎖板上試配。|المربع القصير يتجاوز الحافة. الدرجة العميقة تهبط خلف الحاجز الداخلي. جرّبهما على الصفيحة قبل فحص الطبعة الكربونية.
+q.1|Why are two unused profiles on the ring?|為什麼串上還有兩個沒用的齒形？|لماذا على الحلقة شكلان غير مستخدمين؟
+a.1|Ari brought them as spares. They stayed on the ring to carry back to the shop.|艾瑞帶來當備品。一直留在環上，等帶回店裡。|أحضرهما آري كاحتياط. بقيا على الحلقة للعودة إلى المحل.
+v.name|Ari Holt|艾瑞・霍爾特|آري هولت
+v.role|The locksmith's assistant|鎖匠助手|مساعد القفّال
+v.claim|I stamped our ring code and brought two blanks down. I took the set to file a spare and must have put it on the transit shelf.|環上的店碼是我打的，也帶下兩支胚。我拿走整串去銼備鑰，大概放在中轉架了。|ختمت رمز محلنا على الحلقة وأحضرت قطعتين خاماً. أخذت المجموعة لبرد بديل، ولا بد أنني وضعتها على رف العبور.
+q.0|What do the blanks look like?|胚料的齒形長怎樣？|كيف تبدو القطعتان الخام؟
+a.0|Long square and a shallow step, the two standard profiles. I hadn't trimmed them to the wards yet.|長方齒和淺階齒，兩個都是標準齒形。我還沒把它們修到合擋片。|مربع طويل ودرجة ضحلة، الشكلان المعياريان. لم أبردهما بعد كي يناسبا الحواجز.
+q.1|Who may take them from the shelf?|誰可以把它們從中轉架取走？|من يحق له أخذها من الرف؟
+a.1|The custodian signs the set back into the furnace book. I can take it to the vice only while she's there.|保管員要在爐房簿簽收。我只有她在場時才能拿去虎鉗。|توقّع الأمينة ردّ المجموعة في سجل الفرن. ولي أخذها إلى الملزمة ما دامت حاضرة.
+familiar|Locksmith's stamped ring|鎖匠打戳的鑰匙環|حلقة القفّال المختومة
+familiarDetail|The shop stamps the same code on every work ring it issues.|店裡配發的工作鑰匙環都打同一個碼。|يختم المحل الرمز نفسه على كل حلقة عمل يصدرها.
+f.action|Fan out the four keys and look at their teeth|攤開四把鑰匙，看清它們的齒|افرد المفاتيح الأربعة وانظر إلى أسنانها
+f.title|Four different profiles|四個不同齒形|أربعة أشكال مختلفة
+f.detail|There are two square ends and two stepped ends. The lock has a short square ledge and a deep inner ward.|有兩個方齒、兩個階齒。鎖裡有個短方凸臺和一道深內擋。|طرفان مربّعان وطرفان مدرّجان. في القفل حافة مربّعة قصيرة وحاجز داخلي عميق.
+f.action|Test the two selected teeth against the ward plate|用擋片鎖板試配選好的兩齒|اختبر السنين المختارين على صفيحة الحواجز
+f.title|Two teeth clear the wards|兩齒通過擋片|سنّان يتجاوزان الحاجزين
+f.detail|The short square seats against the ledge. The deep step drops behind the second ward. The spares jam at the surface.|短方齒靠妥凸臺，深階齒沉到第二道擋片後。備鑰都卡在表面。|يستقر المربّع القصير عند الحافة وتهبط الدرجة العميقة وراء الحاجز الثاني. تتعطّل القطعتان الاحتياطيتان عند السطح.
+f.action|Press both working teeth onto the carbon copy|把兩個能用的齒壓上複寫副本|اضغط السنين العاملين فوق النسخة الكربونية
+f.title|May's signed impression|梅簽名的壓痕|طبعة ماي الموقّعة
+f.detail|Both tooth outlines fill May's carbon silhouettes without overspill. Her name is on the corresponding return slip.|兩個齒輪廓剛好填滿梅的複寫剪影，沒有超出。對應的簽收存根是她的名字。|يملأ محيطا السنين شكليهما على طبعة ماي الكربونية من دون تجاوز. اسمها على قسيمة الردّ المقابلة.
+error.owner|Ari made the spares and uses the shop stamp. May is the custodian on the return slip for the working pair.|艾瑞做了備鑰，也用店戳。兩個能用的齒所對應的存根，保管人是梅。|صنع آري البدائل ويستخدم ختم الورشة. ماي هي الأمينة في قسيمة ردّ الزوج العامل.
+error.evidence|‘The ring goes out with blanks,’ May says. ‘I need the two teeth that work and the copy they fit.’|「環上也會掛鑰匙胚，」梅說。「我要看能用的兩齒和它們吻合的副本。」|تقول ماي: «تخرج الحلقة ومعها المفاتيح الخام. أحتاج السنّين العاملين والنسخة التي يطابقانها».
+error.mechanism|Fit the two working profiles to the plate first.|先把兩個可用的齒形試在鎖板上。|طابق الشكلين العاملين على الصفيحة أولاً.
+letter|May locks the furnace room and files the carbon. Ari takes just the two blanks upstairs, leaving the working keys on their signed hook.|梅鎖好爐房，複寫紙入檔。艾瑞只把兩個胚料帶上樓，能用的鑰匙留在有簽領的掛鉤上。|تقفل ماي غرفة الفرن وتحفظ الطبعة. يأخذ آري القطعتين الخام فقط إلى الطابق العلوي ويترك المفتاحين العاملين على خطّافهما الموقّع.
+
+case|suitcase|suitcase|suitcase
+title|The Untagged Suitcase|無牌皮箱|الحقيبة بلا بطاقة
+arrival|Dawn catches two scraped buckles. A carrier and a stagehand recognise a touring trunk with its tag torn away.|晨光照到兩枚刮花的扣子。搬運人和舞臺助手都認出那是巡演用箱，掛牌已經扯掉。|يلامس الفجر مشبكين مخدوشين. يتعرّف حمّال وعاملة مسرح إلى حقيبة الفرقة وقد نُزعت بطاقتها.
+v.name|Lev Brook|列夫・布魯克|ليف بروك
+v.role|The overnight carrier|夜間搬運人|الحمّال الليلي
+v.claim|The trunk came on my van. I need it to finish the delivery. Our dispatch list tells me which theatre was last.|箱子上了我的車。我需要把它送完，派送表寫著最後是哪個劇院。|وصلت الحقيبة في عربتي. أحتاجها لإتمام التوصيل. في كشف الشحن اسم المسرح الأخير.
+q.0|Did anyone authorise you to collect it?|有人授權你來領嗎？|هل فوّضك أحد باستلامها؟
+a.0|I have a route manifest from the depot, but the recipient line was left blank after the tag tore.|我有貨站路線表，不過掛牌扯掉後，收件人一直空白。|لدي كشف مسار من المستودع، لكن خانة المستلم تُركت فارغة بعدما تمزّقت البطاقة.
+q.1|What was packed under the tray?|托盤下面裝了什麼？|ماذا وُضع تحت الصينية؟
+a.1|I only wrapped the buckles. The stage crew sealed everything inside.|我只包了扣子，裡面都由舞臺組封裝。|لففتُ المشبكين فقط. أغلق طاقم المسرح كل شيء في الداخل.
+v.name|Elsie Holt|艾爾西・霍爾特|إلسي هولت
+v.role|The touring stagehand|巡演舞臺助手|عاملة المسرح في الفرقة الجوالة
+v.claim|I am on the old touring handover. The trunk was tagged for me by the company. Ruth put a duplicate under the tray because bits go missing on the road.|舊巡演交接記的是我，劇團的箱牌也是掛給我的。露絲在托盤下放了一份副本，路上常會丟東西。|اسمي على محضر تسليم الجولة القديم. وضعت الفرقة البطاقة باسمي. خبأت روث نسخة تحت الصينية لأن أشياء كثيرة تضيع على الطريق.
+q.0|Which records back up the hidden copy?|哪些檔案能證實暗格裡的副本？|أي سجلّين يسندان النسخة المخفية؟
+a.0|The green thermos release records Eli's bakery handover. Ruth appended the wrist-kit slip to the red marionette release. Both copies are already in your archive.|綠保溫瓶的交還有伊萊的麵包店交接，露絲把手腕工具包存根附在紅提線偶收據。兩份都已經進你的檔案。|يوثّق إيصال الترمس الأخضر تسليم عهدة مخبز إيلاي. ألحقت روث قسيمة علبة المعصم بإيصال الدمية الحمراء. النسختان في أرشيفك.
+q.1|Why would the carrier know so much about it?|搬運人怎麼會這麼瞭解箱子？|لماذا يعرف الحمّال عنها كل هذا؟
+a.1|Lev carried it between theatres and was paid by the mile. At the last stop the company named me as its receiver.|列夫幫劇團在劇院間運，按里程支薪。到終站時劇團指定我接收。|نقلها ليف بين المسارح وأُجر على المسافة. في المحطة الأخيرة حدّدتني الفرقة مستلمة لها.
+familiar|Route manifest|路線載貨表|كشف المسار
+familiarDetail|The carrier's route ends at the theatre but has no authorised recipient.|搬運人的路線到劇院為止，沒有經授權的收件人。|ينتهي مسار الحمّال عند المسرح لكن بلا مستلم مفوّض.
+f.action|Undo both scuffed buckles|鬆開兩枚刮花的扣子|فك المشبكين المخدوشين
+f.title|Intact touring buckles|完整的巡演箱扣|مشبكا الجولة سليمان
+f.detail|The buckles have been wrapped for shipping. On the other side a little recess betrays a movable tray.|箱扣包過運送用護布。另一側的小凹位顯示有塊活動托盤。|لُفّ المشبكان للشحن. وفي الجهة الأخرى يكشف تجويف صغير عن صينية متحركة.
+f.action|Lift the tray by its recessed handle|握住凹把手抬起托盤|ارفع الصينية من مقبضها الغائر
+f.title|Return flap under the tray|托盤下的交還夾層|جيب الردّ تحت الصينية
+f.detail|A brass catch releases a narrow compartment. Two folded accession slips are inside.|按動黃銅扣會開一個窄暗格。裡面有兩張摺好的入檔便條。|يحرّر المزلاج النحاسي حجيرة ضيّقة. داخلها قصاصتا تسجيل مطويّتان.
+f.action|Open the compartment and read both slips|打開暗格，讀兩張便條|افتح الحجيرة واقرأ القصاصتين
+f.title|Elsie's handover copies|艾爾西的交接副本|نسختا تسليم إلسي
+f.detail|The handover names Elsie Holt. Below it are references to the green thermos: A.R. → M.R. → E.N., and the red marionette's wrist kit. Bring both issued receipts from the archive.|交接單寫著艾爾西・霍爾特。下方列了綠保溫瓶 A.R. → M.R. → E.N. 及紅提線偶的手腕工具包。從檔案帶來兩張已開立的收據。|يسمّي محضر التسليم إلسي هولت. وتحته مرجعان: الترمس الأخضر A.R. ثم M.R. ثم E.N.، وعلبة معصم الدمية الحمراء. أحضر الإيصالين الصادرين من الأرشيف.
+error.owner|The route manifest lets Lev carry a load. The signed handover under the tray names Elsie as its receiver.|路線表讓列夫能運貨。托盤下簽過的交接單，接收人寫的是艾爾西。|يتيح كشف المسار لليف نقل الحمولة. يسمي المحضر الموقّع تحت الصينية إلسي مستلمة لها.
+error.evidence|‘Those are real receipts, but look at the two references under the tray,’ Elsie says. ‘One is bakery metal, the other a puppet's wrist kit.’|「那些是真的收據，但看看托盤下兩個引用，」艾爾西說。「一個是麵包店的金屬件，另一個是戲偶的手腕工具包。」|تقول إلسي: «هذه إيصالات حقيقية، لكن انظر إلى المرجعين تحت الصينية. الأول معدن من المخبز والآخر علبة معصم دمية».
+error.mechanism|‘The copies in your archive need a reference,’ Elsie says. ‘That reference is behind the brass catch under the tray.’|「檔案副本需要一條索引，」艾爾西說。「托盤下那個黃銅扣後面就是。」|تقول إلسي: «تحتاج نسختا الأرشيف إلى مرجع. والمرجع خلف المزلاج النحاسي تحت الصينية».
+letter|Elsie ties a new tag over the old scrape. Lev helps lift the suitcase across the threshold, then leaves empty-handed for the first tram. The tiger's brass ring falls back against the door.|艾爾西在舊刮處綁上新牌。列夫幫忙抬箱過門檻，空手趕第一班電車。門上的黃銅虎環落回原處。|تربط إلسي بطاقة جديدة فوق الخدش القديم. يساعد ليف في رفع الحقيبة عبر العتبة، ثم يلحق بأول ترام خالي اليدين. تعود الحلقة النحاسية على رأس النمر فتطرق الباب.

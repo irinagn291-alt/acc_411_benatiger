@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		000000000000000000000001 /* BureauApp.swift */ = {
+			isa = PBXFileReference;
+			path = "BureauApp.swift";
+			lastKnownFileType = "sourcecode.swift";
+			sourceTree = "<group>";
+		};
+		000000000000000000000002 /* CaseBook.swift */ = {
+			isa = PBXFileReference;
+			path = "CaseBook.swift";
+			lastKnownFileType = "sourcecode.swift";
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* Desk.swift */ = {
+			isa = PBXFileReference;
+			path = "Desk.swift";
+			lastKnownFileType = "sourcecode.swift";
+			sourceTree = "<group>";
+		};
+		000000000000000000000091 /* MotionAudio */ = {
+			isa = PBXFileReference;
+			path = "Resources/MotionAudio";
+			name = "MotionAudio";
+			lastKnownFileType = "folder";
+			sourceTree = "<group>";
+		};
+		000000000000000000000092 /* MotionAudio in Resources */ = {
+			isa = PBXBuildFile;
+			fileRef = "000000000000000000000091";
+		};
+		000000000000000000000004 /* Assets.xcassets */ = {
+			isa = PBXFileReference;
+			path = "Resources/Assets.xcassets";
+			name = "Assets.xcassets";
+			lastKnownFileType = "folder.assetcatalog";
+			sourceTree = "<group>";
+		};
+		000000000000000000000005 /* Book */ = {
+			isa = PBXFileReference;
+			path = "Resources/Book";
+			name = "Book";
+			lastKnownFileType = "folder";
+			sourceTree = "<group>";
+		};
+		000000000000000000000006 /* bell.wav */ = {
+			isa = PBXFileReference;
+			path = "Resources/bell.wav";
+			name = "bell.wav";
+			lastKnownFileType = "audio.wav";
+			sourceTree = "<group>";
+		};
+		000000000000000000000007 /* click.wav */ = {
+			isa = PBXFileReference;
+			path = "Resources/click.wav";
+			name = "click.wav";
+			lastKnownFileType = "audio.wav";
+			sourceTree = "<group>";
+		};
+		000000000000000000000008 /* stamp.wav */ = {
+			isa = PBXFileReference;
+			path = "Resources/stamp.wav";
+			name = "stamp.wav";
+			lastKnownFileType = "audio.wav";
+			sourceTree = "<group>";
+		};
+		000000000000000000000009 /* melody.wav */ = {
+			isa = PBXFileReference;
+			path = "Resources/melody.wav";
+			name = "melody.wav";
+			lastKnownFileType = "audio.wav";
+			sourceTree = "<group>";
+		};
+		00000000000000000000000A /* ticks.wav */ = {
+			isa = PBXFileReference;
+			path = "Resources/ticks.wav";
+			name = "ticks.wav";
+			lastKnownFileType = "audio.wav";
+			sourceTree = "<group>";
+		};
+		00000000000000000000000B /* LuckyTiger.app */ = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.application";
+			path = "LuckyTiger.app";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		00000000000000000000000C /* LuckyTigerUITests.xctest */ = {
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.cfbundle";
+			path = "LuckyTigerUITests.xctest";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		00000000000000000000000D /* BureauUITests.swift */ = {
+			isa = PBXFileReference;
+			path = "BureauUITests.swift";
+			lastKnownFileType = "sourcecode.swift";
+			sourceTree = "<group>";
+		};
+		00000000000000000000000E /* Products */ = {
+			isa = PBXGroup;
+			name = "Products";
+			children = ("00000000000000000000000B", "00000000000000000000000C",);
+			sourceTree = "<group>";
+		};
+		00000000000000000000000F /* Game */ = {
+			isa = PBXGroup;
+			path = "Game";
+			children = ("000000000000000000000001", "000000000000000000000002", "000000000000000000000003", "000000000000000000000004", "000000000000000000000005", "000000000000000000000006", "000000000000000000000007", "000000000000000000000008", "000000000000000000000009", "00000000000000000000000A", "000000000000000000000091",);
+			sourceTree = "<group>";
+		};
+		000000000000000000000010 /* Tests */ = {
+			isa = PBXGroup;
+			path = "Tests";
+			children = ("00000000000000000000000D",);
+			sourceTree = "<group>";
+		};
+		000000000000000000000011 /* Main Group */ = {
+			isa = PBXGroup;
+			children = ("00000000000000000000000F", "000000000000000000000010", "00000000000000000000000E",);
+			sourceTree = "<group>";
+		};
+		000000000000000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = "Debug";
+			buildSettings = { INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO; SDKROOT = "iphoneos"; IPHONEOS_DEPLOYMENT_TARGET = "17.0"; TARGETED_DEVICE_FAMILY = "1,2"; SWIFT_VERSION = "5.0"; CODE_SIGN_STYLE = "Automatic"; GENERATE_INFOPLIST_FILE = "YES"; PRODUCT_BUNDLE_IDENTIFIER = "com.tigerbureau.luckytiger"; PRODUCT_NAME = "LuckyTiger"; MARKETING_VERSION = "1.0"; CURRENT_PROJECT_VERSION = "1"; ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = "NO"; INFOPLIST_FILE = "Game/Info.plist"; INFOPLIST_EXPAND_BUILD_SETTINGS = "YES"; INFOPLIST_KEY_CFBundleDevelopmentRegion = "en-GB"; 
+				INFOPLIST_KEY_CFBundleDisplayName = "Benatiger";
+				 INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games"; INFOPLIST_KEY_UILaunchScreen_Generation = "YES"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = "dwarf"; };
+		};
+		000000000000000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			name = "Release";
+			buildSettings = { INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO; SDKROOT = "iphoneos"; IPHONEOS_DEPLOYMENT_TARGET = "17.0"; TARGETED_DEVICE_FAMILY = "1,2"; SWIFT_VERSION = "5.0"; CODE_SIGN_STYLE = "Automatic"; GENERATE_INFOPLIST_FILE = "YES"; PRODUCT_BUNDLE_IDENTIFIER = "com.tigerbureau.luckytiger"; PRODUCT_NAME = "LuckyTiger"; MARKETING_VERSION = "1.0"; CURRENT_PROJECT_VERSION = "1"; ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = "NO"; INFOPLIST_FILE = "Game/Info.plist"; INFOPLIST_EXPAND_BUILD_SETTINGS = "YES"; INFOPLIST_KEY_CFBundleDevelopmentRegion = "en-GB"; 
+				INFOPLIST_KEY_CFBundleDisplayName = "Benatiger";
+				 INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games"; INFOPLIST_KEY_UILaunchScreen_Generation = "YES"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait"; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; SWIFT_COMPILATION_MODE = "wholemodule"; };
+		};
+		000000000000000000000014 /* LuckyTiger */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = ("000000000000000000000012", "000000000000000000000013",);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = "Release";
+		};
+		000000000000000000000015 /* Build File */ = {
+			isa = PBXBuildFile;
+			fileRef = "000000000000000000000001";
+		};
+		000000000000000000000016 /* Build File */ = {
+			isa = PBXBuildFile;
+			fileRef = "000000000000000000000002";
+		};
+		000000000000000000000017 /* Build File */ = {
+			isa = PBXBuildFile;
+			fileRef = "000000000000000000000003";
+		};
+		000000000000000000000018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = "2147483647";
+			files = ("000000000000000000000015", "000000000000000000000016", "000000000000000000000017",);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		000000000000000000000019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = "2147483647";
+			files = ();
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		00000000000000000000001A /* Build File */ = {
+			isa = PBXBuildFile;
+			fileRef = "000000000000000000000004";
+		};
+		00000000000000000000001B /* Build File */ = {
+			isa = PBXBuildFile;
+			fileRef = "000000000000000000000005";
+		};
+		00000000000000000000001C /* Build File */ = {
+			isa = PBXBuildFile;
+			fileRef = "000000000000000000000006";
+		};
+		00000000000000000000001D /* Build File */ = {
+			isa = PBXBuildFile;
+			fileRef = "000000000000000000000007";
+		};
+		00000000000000000000001E /* Build File */ = {
+			isa = PBXBuildFile;
+			fileRef = "000000000000000000000008";
+		};
+		00000000000000000000001F /* Build File */ = {
+			isa = PBXBuildFile;
+			fileRef = "000000000000000000000009";
+		};
+		000000000000000000000020 /* Build File */ = {
+			isa = PBXBuildFile;
+			fileRef = "00000000000000000000000A";
+		};
+		000000000000000000000021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = "2147483647";
+			files = ("00000000000000000000001A", "00000000000000000000001B", "00000000000000000000001C", "00000000000000000000001D", "00000000000000000000001E", "00000000000000000000001F", "000000000000000000000020", "000000000000000000000092",);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		000000000000000000000022 /* LuckyTiger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "000000000000000000000014";
+			buildPhases = ("000000000000000000000018", "000000000000000000000019", "000000000000000000000021",);
+			buildRules = ();
+			dependencies = ();
+			name = "LuckyTiger";
+			productName = "LuckyTiger";
+			productReference = "00000000000000000000000B";
+			productType = "com.apple.product-type.application";
+		};
+		000000000000000000000023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = "Debug";
+			buildSettings = { SDKROOT = "iphoneos"; IPHONEOS_DEPLOYMENT_TARGET = "17.0"; TARGETED_DEVICE_FAMILY = "1,2"; SWIFT_VERSION = "5.0"; CODE_SIGN_STYLE = "Automatic"; GENERATE_INFOPLIST_FILE = "YES"; PRODUCT_BUNDLE_IDENTIFIER = "com.tigerbureau.luckytiger.uitests"; PRODUCT_NAME = "LuckyTigerUITests"; TEST_TARGET_NAME = "LuckyTiger"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = "dwarf"; };
+		};
+		000000000000000000000024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			name = "Release";
+			buildSettings = { SDKROOT = "iphoneos"; IPHONEOS_DEPLOYMENT_TARGET = "17.0"; TARGETED_DEVICE_FAMILY = "1,2"; SWIFT_VERSION = "5.0"; CODE_SIGN_STYLE = "Automatic"; GENERATE_INFOPLIST_FILE = "YES"; PRODUCT_BUNDLE_IDENTIFIER = "com.tigerbureau.luckytiger.uitests"; PRODUCT_NAME = "LuckyTigerUITests"; TEST_TARGET_NAME = "LuckyTiger"; SWIFT_COMPILATION_MODE = "wholemodule"; };
+		};
+		000000000000000000000025 /* LuckyTigerUITests */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = ("000000000000000000000023", "000000000000000000000024",);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = "Release";
+		};
+		000000000000000000000026 /* App Dependency */ = {
+			isa = PBXTargetDependency;
+			target = "000000000000000000000022";
+		};
+		000000000000000000000027 /* Build File */ = {
+			isa = PBXBuildFile;
+			fileRef = "00000000000000000000000D";
+		};
+		000000000000000000000028 /* Test Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = "2147483647";
+			files = ("000000000000000000000027",);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		000000000000000000000029 /* Test Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = "2147483647";
+			files = ();
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		00000000000000000000002A /* Test Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = "2147483647";
+			files = ();
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+		00000000000000000000002B /* LuckyTigerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "000000000000000000000025";
+			buildPhases = ("000000000000000000000028", "000000000000000000000029", "00000000000000000000002A",);
+			buildRules = ();
+			dependencies = ("000000000000000000000026",);
+			name = "LuckyTigerUITests";
+			productName = "LuckyTigerUITests";
+			productReference = "00000000000000000000000C";
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		00000000000000000000002C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = "Debug";
+			buildSettings = { CLANG_ENABLE_MODULES = "YES"; DEVELOPMENT_LANGUAGE = "en-GB"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = "dwarf"; };
+		};
+		00000000000000000000002D /* Release */ = {
+			isa = XCBuildConfiguration;
+			name = "Release";
+			buildSettings = { CLANG_ENABLE_MODULES = "YES"; DEVELOPMENT_LANGUAGE = "en-GB"; SWIFT_COMPILATION_MODE = "wholemodule"; };
+		};
+		00000000000000000000002E /* Project */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = ("00000000000000000000002C", "00000000000000000000002D",);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = "Release";
+		};
+		00000000000000000000002F /* Project */ = {
+			isa = PBXProject;
+			attributes = { LastUpgradeCheck = "2700"; TargetAttributes = { 00000000000000000000002B = { TestTargetID = "000000000000000000000022"; }; }; };
+			buildConfigurationList = "00000000000000000000002E";
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "en-GB";
+			hasScannedForEncodings = "0";
+			knownRegions = ("en-GB", "en-US", "zh-Hant", "ar", "Base",);
+			mainGroup = "000000000000000000000011";
+			productRefGroup = "00000000000000000000000E";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = ("000000000000000000000022", "00000000000000000000002B",);
+		};
+	};
+	rootObject = 00000000000000000000002F;
+}

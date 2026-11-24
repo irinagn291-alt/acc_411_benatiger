@@ -1,0 +1,881 @@
+{
+  "strings": {
+    "brand": "Benatiger",
+    "unmute": "Turn sound on",
+    "mute": "Turn sound off",
+    "close": "Close archive",
+    "archive": "Night board & archive",
+    "bell": "Ring the brass bell",
+    "arrival_prompt": "Lost Property. Night service. Ring once and wait by the lamp.",
+    "inspect": "Bring the item to the bench",
+    "room": "Reception",
+    "bench": "Workbench",
+    "receipt": "Receipt",
+    "letter": "Letter",
+    "issued": "Release recorded",
+    "closed": "The bureau is closed",
+    "ending": "All twelve things have gone home. The lamp goes dark, and the brass tiger on the door catches the first light.",
+    "drawer": "Open the intake drawer",
+    "review": "Revisit the conversations",
+    "open_copy": "Read the filed copy",
+    "in_progress": "Open case · resume",
+    "in_drawer": "Ready in the drawer",
+    "locked": "Awaiting prior releases",
+    "objection": "The claimant objects",
+    "front": "Face",
+    "back": "Turn over",
+    "turn_hint": "Turn the item to find the next point of interest.",
+    "listen_box": "Play the four notes",
+    "listen_tick": "Run the metronome",
+    "notes_box": "G · B · D · B   (the last note comes after a pause)",
+    "notes_tick": "1 · 2 · 3 · [pause] · 4 · 5",
+    "notebook": "Observations",
+    "empty_notebook": "Inspect a detail to add it to the notebook.",
+    "question_limit": "One question for this visitor",
+    "recipient": "Release to",
+    "evidence": "Evidence cards",
+    "archive_copies": "Copies from the archive",
+    "empty_slot": "Insert a card",
+    "empty_owner": "Choose a claimant",
+    "cards": "Read the available cards",
+    "choose_card": "Attach or remove a card",
+    "attach": "Attach",
+    "detach": "Remove",
+    "done": "Back to the receipt",
+    "draft": "Receipt preview",
+    "stamp": "Press the brass stamp",
+    "suitcase_hint": "Look under the tray before releasing the case.",
+    "teeth_hint": "Fit two teeth to the warded lock. Compare depth before checking the fit.",
+    "tooth_0": "Short square",
+    "tooth_1": "Long square",
+    "tooth_2": "Deep step",
+    "tooth_3": "Shallow step",
+    "try_again": "Still at the bench",
+    "teeth_wrong": "The shallow step rides above the ward, and the long square bottoms out. Look for a short square and a deeper step.",
+    "brace": "Keep a thumb on the left pin",
+    "feed": "Slide a blank ticket between the jaws",
+    "box_wrong": "The left pin lifts with the lid. Hold it down with your thumb before trying again.",
+    "punch_wrong": "The stub has a little split in its cut. Feed a blank before squeezing, then look for the same split.",
+    "punch_setting": "Choose the cut that matches the route stub.",
+    "square_cut": "Square cut ■",
+    "split_cut": "Split cut ⌄",
+    "round_cut": "Round cut ●",
+    "lantern_setting": "Click the shutter into one of its three detents.",
+    "amber": "Amber · first stop",
+    "green": "Green · middle stop",
+    "blue": "Blue · third stop",
+    "lantern_wrong": "First and middle stops light the painted side of the call sheet. Look for the third stop, where blue reaches the registration slit.",
+    "metronome_setting": "Which beat arrives after the long gap?",
+    "beat_two": "Second beat",
+    "beat_three": "Third beat",
+    "beat_four": "Fourth beat",
+    "metronome_wrong": "Follow the longer gap on the strip. The delayed strike is the first tick after it.",
+    "camera_setting": "Move the translucent test frame until both scratches overlap.",
+    "shift_left": "Shift frame left",
+    "align": "Centre frame in the gate",
+    "shift_right": "Shift frame right",
+    "camera_wrong": "Two scratches are still visible. At the correct registration the bend in the line covers itself.",
+    "fold_objection": "Keep objection in the notebook",
+    "read_objection": "Read the earlier objection",
+    "close_notebook": "Close the notebook",
+    "camera_align_short": "Align the two scratches",
+    "camera_retry_short": "Two scratches are still visible.",
+    "keys_retry_short": "The teeth do not seat.",
+    "why_mismatch": "Why the pieces do not match",
+    "close_detail": "Close the detail",
+    "motion_pin": "Hold the loose pin, then pull up along the hinge.",
+    "motion_camera": "Catch the back latch and pull it open.",
+    "motion_tray": "Grip the tray pull and draw it out.",
+    "motion_film": "Slide the film until both scratches meet.",
+    "motion_pull": "Catch the paper edge and pull it free.",
+    "motion_return": "The catch slipped back. Grip the marked part again.",
+    "motion_touch_guide": "Grip the part marked on the object.",
+    "motion_slip": "The paper slipped back. Pull it a little farther.",
+    "motion_offset": "Still two marks. Adjust the film and release where they meet.",
+    "motion_second_clasp": "One clasp released. The other is still shut.",
+    "motion_filed": "Observation added to the notebook.",
+    "motion_turn": "Draw a finger across the object to turn it.",
+    "motion_note_title": "Repair slip",
+    "motion_note_match": "The same signature is on the claim form.",
+    "motion_manifest": "Delivery references",
+    "motion_stamp": "Pull the brass stamp down onto the receipt.",
+    "proof_help": "How to link the evidence",
+    "statement": "Statement"
+  },
+  "nights": [
+    "Rain",
+    "Last Tram",
+    "Dress Rehearsal",
+    "Before Dawn"
+  ],
+  "cases": [
+    {
+      "id": "box",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "Where did you hear the tune?",
+            "Show me how you wind it."
+          ],
+          "answers": [
+            "Ada played it almost every evening. She always waited through the little silence before the last note.",
+            "Before you lift the lid, Eleanor braces the left hinge with her thumb. ‘Go slowly. That side gives. Ada used to leave the mending to me.’"
+          ],
+          "name": "Eleanor Vale",
+          "role": "The woman in the wet coat",
+          "claim": "Aunt Ada left me her box. I wound it by the kitchen window when her hands began to hurt."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "Where did you hear the tune?",
+            "Show me how you wind it."
+          ],
+          "answers": [
+            "I copied it note by note. I can hum the pause exactly as she played it.",
+            "Arthur reaches straight for the crank and leaves the lid unsupported. ‘I wrote from the sound. Ada did the winding.’"
+          ],
+          "name": "Arthur Bell",
+          "role": "The man with the music folder",
+          "claim": "Ada lent it to me to copy the tune. She said I should keep it until the arrangement was finished, and I thought she meant for good."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Run a finger along the polished rim",
+          "title": "Polished rim",
+          "detail": "One edge is slick with handling. Put the hinges towards you for a closer look."
+        },
+        {
+          "id": "mechanism",
+          "action": "Lift the lid slowly",
+          "title": "Loose left hinge",
+          "detail": "The left pin rides upwards unless braced. The lid opens around a folded paper shim."
+        },
+        {
+          "id": "match",
+          "action": "Lift the shim and compare the signatures",
+          "title": "Signed paper shim",
+          "detail": "Under the fold is ‘Left hinge refitted by Eleanor Vale’. The looping V matches her claim form."
+        }
+      ],
+      "contradictions": [
+        "Arthur's loan covered copying the tune. Eleanor points out that the box had to be returned when his arrangement was done.",
+        "‘Arthur can hum it too,’ Eleanor says. ‘Did you see me steady the hinge before it opened? There is also writing under the fold.’",
+        "Compare the paper under the hinge to the claim form."
+      ],
+      "title": "The Music Box",
+      "arrival": "Rain drips from a coat hem. A woman and a man with a music folder hum the same four notes.",
+      "familiar": "The shared tune",
+      "familiarDetail": "Both visitors can hum G, B, D, B, including the short pause before the last note.",
+      "letter": "Ada writes that the box is Eleanor's, with thanks for every little repair. She asks her to set it on the kitchen sill and leave the tune's last silence exactly as it is."
+    },
+    {
+      "id": "umbrella",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "Where did the handle get dented?",
+            "Who dropped it by your stool?"
+          ],
+          "answers": [
+            "On the iron rail. I caught it while carrying a suitcase down.",
+            "Nell lent it to me until the crowd thinned. She had already mended the cuff."
+          ],
+          "name": "Jonah Pike",
+          "role": "The porter",
+          "claim": "I brought people under it from the station steps all day. When I went off shift it was still by my stool."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "What does the register describe?",
+            "Why was it leaning by the stairs?"
+          ],
+          "answers": [
+            "Two red crosses in mirrored pairs on the inside cuff. I logged the repair so I could account for it later.",
+            "I let Jonah use it during the downpour. The wet passenger rush comes before my cupboard."
+          ],
+          "name": "Nell Sayer",
+          "role": "The station caretaker",
+          "claim": "Mine is the umbrella I signed out for platform duty. It came apart at the cuff and I repaired it between trains."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Lift the loose end of the strap",
+          "title": "Loose outer cuff",
+          "detail": "The outer face is plain. The red thread ducks inside the cuff."
+        },
+        {
+          "id": "mechanism",
+          "action": "Turn the cuff inside out",
+          "title": "Paired red stitches",
+          "detail": "Two facing cross-stitches close the tear. The thread would be invisible while carrying the umbrella."
+        },
+        {
+          "id": "match",
+          "action": "Lay the cuff over the repair entry",
+          "title": "Repair register match",
+          "detail": "The duty register lists both the mirrored stitches and Nell's issue signature in the same entry."
+        }
+      ],
+      "contradictions": [
+        "Jonah remembers the rail, but the station issue register names Nell as the person responsible for bringing this umbrella back.",
+        "Nell lays a finger on the plain outer cuff. ‘The dent could be on any loaner. My repair is signed into the register.’",
+        "Turn the cuff, then check the duty register."
+      ],
+      "title": "The Folding Umbrella",
+      "arrival": "A green umbrella smells of wet pavement. Two people recognise the dent in its handle.",
+      "familiar": "The dented handle",
+      "familiarDetail": "Both visitors used the handle at the station rail.",
+      "letter": "Nell checks the umbrella back into the station cupboard. In the margin she writes that Jonah may borrow it again when the rail shines with rain."
+    },
+    {
+      "id": "thermos",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "What are the initials, in order?",
+            "What was in it on the night shift?"
+          ],
+          "answers": [
+            "A.R., M.R., E.N. Oldest to newest. We keep the apprenticeship record for Eli in the red marionette's wrist kit, where the troupe's props travel.",
+            "Cinnamon tea. I filled it before we pulled the last tray of bread."
+          ],
+          "name": "Mara Reed",
+          "role": "The bakery owner",
+          "claim": "I loan it to the night delivery shift. My mother Alice marked the inner base when she handed over the bakery. My initials came next, and then the apprentice's."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "When did your name go on it?",
+            "What is below the outside cap?"
+          ],
+          "answers": [
+            "On my first night. Mara added my name so she could get the thermos back from the right rider.",
+            "I never took that bit off. We were told to wash the cup and leave the base alone."
+          ],
+          "name": "Eli Noon",
+          "role": "The delivery cyclist",
+          "claim": "I carried it all winter, and E.N. is on the shift sticker. I assumed the bakery meant to leave it on my bike."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Lift the shift sticker at the corner",
+          "title": "Removable rider label",
+          "detail": "E.N. is pencilled on washable tape. A seam runs around the foot."
+        },
+        {
+          "id": "mechanism",
+          "action": "Unscrew the false bottom",
+          "title": "Engraved inner base",
+          "detail": "Beneath the cup, three marks share the metal rather than the temporary tape."
+        },
+        {
+          "id": "match",
+          "action": "Read the initials from the oldest groove",
+          "title": "Order of the engravings",
+          "detail": "A.R. → M.R. → E.N. matches the bakery's handover log. Only the central entry records a transfer; the last records Eli's enrolment."
+        }
+      ],
+      "contradictions": [
+        "Eli's initials are an apprentice entry. Mara points to the bakery handover next to hers.",
+        "‘That tells you whose deliveries it was on,’ Mara says. ‘The inner base tells you whose equipment it is.’",
+        "Take off the false bottom to see the order.",
+        "The inside marks need context. Pair the engraving order with the removable rider label to distinguish a shift assignment from a handover.",
+        "The engraving order is needed alongside Eli’s account of when his name was added. Knowing what was in the thermos or how it was washed does not establish who got the equipment."
+      ],
+      "title": "The Green Thermos",
+      "arrival": "Steam has gone cold under the cap. A baker and a delivery cyclist both remember the cinnamon.",
+      "familiar": "Cinnamon and shift sticker",
+      "familiarDetail": "Both visitors can identify the drink and the rider currently using the thermos.",
+      "letter": "Mara takes the thermos back into bakery stock and signs the A.R. → M.R. → E.N. handover copy. Her instructions say to file it with the marionette's apprenticeship slip if the touring company's trunk ever turns up.",
+      "proofGuide": "Compare the removable rider label with the order of the engravings. Eli’s account of when his name went on can also put the engraving in context."
+    },
+    {
+      "id": "punch",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "Did the depot give you a stub?",
+            "When did you last hold this model?"
+          ],
+          "answers": [
+            "Yes, but mine has a neat square. That's what I collect, intact cuts.",
+            "At the sale. I tried a whole crate before choosing one."
+          ],
+          "name": "Owen Flint",
+          "role": "The ticket collector",
+          "claim": "I bought a retired punch at the depot sale. This has the same weight and the same polished handles."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "What cut is on the duty stub?",
+            "Why was the punch off the tram?"
+          ],
+          "answers": [
+            "A little split at the lower edge. A chip in our punch leaves two points in the cut.",
+            "Relief staff sign their tools back in. My depot stub is still stapled to the shift line."
+          ],
+          "name": "Ida Moss",
+          "role": "The relief inspector",
+          "claim": "This is my assigned duty punch. I dropped it while stowing the last-tram roll at the depot."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Open the punch jaws",
+          "title": "A nick in the die",
+          "detail": "The cutting die has a little chip. Turn the jaws towards you before feeding a blank."
+        },
+        {
+          "id": "mechanism",
+          "action": "Squeeze the handles and punch the ticket",
+          "title": "Fresh split cut",
+          "detail": "The blank now has two little points in its cut. Lay it against the route stub."
+        },
+        {
+          "id": "match",
+          "action": "Check the cut against the signed stub",
+          "title": "Duty stub with matching split",
+          "detail": "The two points match the stub stapled by Ida's issue signature. The collector's square comes from another die."
+        }
+      ],
+      "contradictions": [
+        "Owen's sale ticket shows a square. It places his punch at the sale and leaves this chipped one on Ida's duty line.",
+        "‘Every punch on this route wears the same way,’ Ida says. ‘Make a cut, then find my stub.’",
+        "Make a fresh cut so there is something to compare.",
+        "A mark on one piece of paper cannot identify the tool by itself. Link the nick in the die to the split on the signed duty stub.",
+        "Ida’s account of the shift return tells you where the stub is filed. Her description of its split, checked against a fresh cut, identifies the punch she used."
+      ],
+      "title": "The Ticket Punch",
+      "arrival": "A last-tram stub is still in the tray. A collector and a relief inspector both reach for the hand punch.",
+      "familiar": "Polished handles",
+      "familiarDetail": "Hand punches of this make share their weight and handle shape.",
+      "letter": "Ida clips the test ticket to her shift return. Owen asks for a spare stub with the odd cut to put beside his pristine squares.",
+      "proofGuide": "Link the nick in the die to the split on the signed duty stub. If Ida described the cut on her duty stub, try comparing her description with a fresh cut."
+    },
+    {
+      "id": "mittens",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "Why do the darns need to line up?",
+            "Why is wool from both pairs in this tray?"
+          ],
+          "answers": [
+            "I drew the needle back through the two thumbs before cutting the thread. The blue crossings mirror one another.",
+            "We dried them beside the same radiator on the tram. Iris took one by mistake when we changed lines."
+          ],
+          "name": "Bea Ash",
+          "role": "The sister with the left glove",
+          "claim": "Mum knitted our pairs alike. When mine split at both thumbs I darned them face to face with the same blue thread. I carried the left one in for comparison."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "Did you patch both thumbs together?",
+            "Can you identify Mum's wool?"
+          ],
+          "answers": [
+            "Only one ever tore. I used a leftover red thread for it.",
+            "Red with a fleck of grey. She bought one big ball for both of us."
+          ],
+          "name": "Iris Ash",
+          "role": "The sister with the right glove",
+          "claim": "The red yarn is mine. I can still feel the exact place the cuff folds against my sleeve."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Separate the overlapping cuffs",
+          "title": "Identical ribbing",
+          "detail": "The cuffs carry the same count of ribs. Turn the mittens palm up to get to the thumbs."
+        },
+        {
+          "id": "mechanism",
+          "action": "Flatten the right and left thumb seams",
+          "title": "Blue thread on both thumbs",
+          "detail": "Both repairs have three crossings. One line leaves the right thumb where the other starts on the left."
+        },
+        {
+          "id": "match",
+          "action": "Bring the right darn against Bea's left",
+          "title": "Mirrored blue darning",
+          "detail": "The end crosses marry when the thumbs touch. Bea's left is the mate of the loose right mitten."
+        }
+      ],
+      "contradictions": [
+        "Iris remembers a single red patch. The loose mitten carries the second half of Bea's blue repair.",
+        "‘Mum made both pairs from that,’ Bea says. ‘Lay the thumbs together and you can see where I pulled the thread through.’",
+        "Press the thumb seams flat before comparing them."
+      ],
+      "title": "The Red Mittens",
+      "arrival": "Two red mittens dry by the lamp. Sisters remember the same wool from the same winter.",
+      "familiar": "Red wool with grey flecks",
+      "familiarDetail": "Both pairs were knitted from one ball, so the cuff and yarn look identical.",
+      "letter": "Bea buttons both mittens to her coat. Before they leave the tram stop, she offers Iris the rest of the blue thread for a repair of her own."
+    },
+    {
+      "id": "glasses",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "Who took it home after the repair?",
+            "What fabric could you recognise?"
+          ],
+          "answers": [
+            "I sent it to Simon, my stepfather. His old frames fitted better than Dad's replacement pair.",
+            "Green felt from the optician's sample drawer. I lined several cases with it that month."
+          ],
+          "name": "Phoebe Dane",
+          "role": "The optician's daughter",
+          "claim": "I cut the lining after I broke Dad's old case. That makes it easy to remember how it feels."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "How did you lay the glasses inside?",
+            "Is there a gift note?"
+          ],
+          "answers": [
+            "Left bow inward, because the bend caught the case's lip otherwise. It left a little kick in the felt at the bridge end.",
+            "Inside the seam, I think. She tagged my lens order with it."
+          ],
+          "name": "Simon Dane",
+          "role": "The reader with the bent frames",
+          "claim": "Phoebe gave me the case. I travelled with it and the old frames until the left bow bent. I keep the glasses in my pocket now."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Lift the clasp and inspect the edge",
+          "title": "Worn lip",
+          "detail": "The clasp closes, but a little fabric has pulled away from the rim."
+        },
+        {
+          "id": "mechanism",
+          "action": "Spread the loose lining apart",
+          "title": "Impression under the lining",
+          "detail": "The felt holds two oval impressions and a bent imprint close to the bridge."
+        },
+        {
+          "id": "match",
+          "action": "Fit Simon's frames into the impressions",
+          "title": "Fitted frame and gift tag",
+          "detail": "The bent bow drops into the groove and exposes a tiny lens-order tag in the seam addressed to Simon."
+        }
+      ],
+      "contradictions": [
+        "Phoebe fitted the liner and gave the finished case away. The seam keeps the name of the recipient.",
+        "‘I remember her felt too,’ Simon says. ‘Try laying my glasses against the dents.’",
+        "Lift the lining to expose the full impressions."
+      ],
+      "title": "The Spectacle Case",
+      "arrival": "A clamshell case has gone soft at the lip. Two people say the green lining came from their family cupboard.",
+      "familiar": "Green optician's felt",
+      "familiarDetail": "Phoebe cut the felt for several cases from the same roll.",
+      "letter": "Simon puts the glasses back in their case. Phoebe offers to straighten the bow. He asks her to leave it until after he has read the end of his book."
+    },
+    {
+      "id": "metronome",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "Which strike causes the trouble?",
+            "Where is your note filed?"
+          ],
+          "answers": [
+            "The fourth. Everyone begins together, then holds a breath too long before coming back in.",
+            "Pinned under the piano lid on the hall inventory sheet. I signed the issue line and the repair request there."
+          ],
+          "name": "Lydia Crane",
+          "role": "The rehearsal pianist",
+          "claim": "I signed out the hall's practice metronome. I pencilled a note when its fourth strike started waiting longer; the pause was ruining entrances."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "Did the beat change at home?",
+            "Who signed for your loan?"
+          ],
+          "answers": [
+            "I practised the opening bars at the marked tempo. I reset it before I got far enough to tell.",
+            "Lydia brought it over. She said the hall needed it back before the dress rehearsal."
+          ],
+          "name": "Felix Marr",
+          "role": "The pupil with the tempo chart",
+          "claim": "That metronome lived on my piano for a month. My tutor said I could use it for the whole run of rehearsals."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Read the weight on the scale",
+          "title": "Weight at seventy-two",
+          "detail": "The pencil line crosses seventy-two. Turn the metronome to release the transport catch."
+        },
+        {
+          "id": "mechanism",
+          "action": "Release the catch and run five beats",
+          "title": "The gap before four",
+          "detail": "Ticks one, two and three come evenly. Four waits, then five returns to the first interval. The strip shows the longer gap."
+        },
+        {
+          "id": "match",
+          "action": "Compare the delayed beat with the rehearsal note",
+          "title": "Lydia's annotated issue sheet",
+          "detail": "The fourth mark is stretched on Lydia's signed hall sheet. Her repair request describes the loose stop behind the catch."
+        }
+      ],
+      "contradictions": [
+        "Felix had permission to practise. The hall's issue sheet still requires Lydia to return the instrument.",
+        "‘The opening tempo is on every pupil's chart,’ Lydia says. ‘The fault in the fourth beat is on my issue sheet.’",
+        "Run the pendulum and follow the gap on the strip.",
+        "The two musicians know the same tempo. Pair the recorded delay before beat four with Lydia’s signed issue sheet.",
+        "The delay before four identifies the instrument. For a witness route, pair that delay with Felix’s account of the loan and of who had to return it."
+      ],
+      "title": "The Rehearsal Metronome",
+      "arrival": "A wooden metronome rocks on the baize. Two musicians tap the same opening tempo on the counter.",
+      "familiar": "Marked opening tempo",
+      "familiarDetail": "Both played the first bars at seventy-two. The weight's setting alone tells you nothing about the delayed note.",
+      "letter": "Lydia takes the metronome to the hall's repair shelf. For that night's rehearsal the pupils take turns tapping time on the piano lid.",
+      "proofGuide": "Pair the delay before beat four with Lydia’s repair request, or with Felix’s account of who lent it to him and who needed it back."
+    },
+    {
+      "id": "lantern",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "Which setting lit your table?",
+            "Who checked it out of the stores?"
+          ],
+          "answers": [
+            "Amber, at the first click. It made the wet paint easy to judge.",
+            "June checked out the practicals. She let me keep this one over the table until we went on."
+          ],
+          "name": "Rafi Cole",
+          "role": "The scene painter",
+          "claim": "I painted the lantern's call plate. Its light was above my paint table for an entire tour."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "What comes through at the third stop?",
+            "Why did Rafi use it every night?"
+          ],
+          "answers": [
+            "A narrow blue bar at the seam. Set it all the way past green to find it.",
+            "We shared the first amber cue for painting tests. Working with it was part of his job."
+          ],
+          "name": "June Ward",
+          "role": "The lighting chief",
+          "claim": "The lantern is in my sign-out book. The first two stops merely paint the call sheet. I filed a blue slit in the third so I could read the registration from behind a curtain."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Read the painted call plate",
+          "title": "Amber call plate",
+          "detail": "The plate sits on the lit face. Around the back you can feel three shutter stops cut into the rim."
+        },
+        {
+          "id": "mechanism",
+          "action": "Test the shutter against the call sheet",
+          "title": "Blue slit at stop three",
+          "detail": "At the third detent a thin blue bar escapes over the paper's edge. Amber and green light only the painted face."
+        },
+        {
+          "id": "match",
+          "action": "Read the registration in the blue bar",
+          "title": "June's hidden registration",
+          "detail": "The light picks out 7–W behind the plate. June signed lamp 7–W out; the paint ledger only lists Rafi's colour mix."
+        }
+      ],
+      "contradictions": [
+        "Rafi's paint record lists a colour mix. The lit registration number ties this lantern to June's signed stores issue.",
+        "‘We all saw amber,’ June says. ‘Find the third stop and read what the light picks out.’",
+        "Rotate past green and hold the paper edge in the blue light.",
+        "The call plate only shows who painted it. Use the blue slit at the third stop and the registration it reveals to establish who signed it out.",
+        "The amber cue explains why Rafi used the lamp. Look for his account of who signed it out and test June’s blue slit at the third stop to identify the lamp."
+      ],
+      "title": "The Signal Lantern",
+      "arrival": "A stage lantern still smells of warmed brass. Two crew members know the amber cue by heart.",
+      "familiar": "Amber cue paint",
+      "familiarDetail": "Rafi chose the amber coat, and the whole crew knew how it looked.",
+      "letter": "June carries the lantern back to the flies. Rafi touches up the amber paint, carefully leaving the little blue slit clear.",
+      "proofGuide": "Use the blue slit at the third stop with the hidden registration. Rafi’s account of who signed the lamp out can stand in for the registration once you’ve tested the blue slit."
+    },
+    {
+      "id": "puppet",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "How do you know which hand fits?",
+            "Why would the touring company keep a bakery slip there?"
+          ],
+          "answers": [
+            "Dovetail on the right, square on the left. There's a page in my wrist kit with the return agreement on the back.",
+            "Eli used to carry our props between his bakery shifts. We agreed the troupe's trunk should follow his apprentice record and our wrist-kit receipt when it travelled without its own tag."
+          ],
+          "name": "Ruth Finch",
+          "role": "The puppet maker",
+          "claim": "I built her on commission. The red puppet lives with me between shows for service, under the maker's return agreement. I cut different pegs into the two wrists."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "Did you remove both hands?",
+            "Who kept her after the last show?"
+          ],
+          "answers": [
+            "I undid a string to change the gestures, but Ruth showed me the hands already assembled.",
+            "I put her into the touring crate. The agreement sends her to Ruth for repairs between bookings."
+          ],
+          "name": "Kit Warren",
+          "role": "The understudy",
+          "claim": "I played her during the tour. The red dress and the wave are mine from muscle memory alone."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Untangle the control strings",
+          "title": "Travel knots",
+          "detail": "The arm cords are tied against the control bar for travel. The sockets are under the cuffs."
+        },
+        {
+          "id": "mechanism",
+          "action": "Slide both spare hands out of their sockets",
+          "title": "Square and dovetail sockets",
+          "detail": "The left hand uses a square peg. The right has a dovetail shoulder that prevents a twist during the wave."
+        },
+        {
+          "id": "match",
+          "action": "Fit the pegs to the maker's drawing",
+          "title": "Maker's drawing and return agreement",
+          "detail": "Both different pegs match Ruth's drawing. The signed reverse puts the marionette in her care between shows."
+        }
+      ],
+      "contradictions": [
+        "Kit performed with the marionette. The signed maker agreement routes repair and storage to Ruth between shows.",
+        "‘The audience saw that wave too,’ Ruth says. ‘The wrist joints will answer what the costume cannot.’",
+        "Pull out each hand before reading the drawing."
+      ],
+      "title": "The Red Marionette",
+      "arrival": "A marionette with replaceable hands lies across the desk. One visitor remembers every gesture, the other every joint.",
+      "familiar": "Red dress and open wave",
+      "familiarDetail": "Anyone watching the tour can copy the open-handed wave. The dress travelled on every stage.",
+      "letter": "Ruth takes the puppet home to wax the sockets. She files the wrist-kit and apprenticeship copy with this receipt, marked for the untagged touring trunk and stagehand Elsie Holt."
+    },
+    {
+      "id": "camera",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "Did the line move with the paper?",
+            "Who loaded the test roll?"
+          ],
+          "answers": [
+            "I thought so at first. It bends at the same place on two exposures, though. Drying marks are usually longer.",
+            "Anya did. She signed the developing envelope and asked me to leave the little notch in the crop uncropped."
+          ],
+          "name": "Noel Birch",
+          "role": "The darkroom technician",
+          "claim": "I developed the roll. This model was my first camera, and the streak looks just like the drying mark on mine."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "Where does the streak turn?",
+            "Where is the repair docket?"
+          ],
+          "answers": [
+            "Just before the lower right edge of the gate. The little kink points back towards the centre.",
+            "Clipped to the test frame. The shop drew the line onto it when I dropped the camera off."
+          ],
+          "name": "Anya Keel",
+          "role": "The photographer",
+          "claim": "I own the camera. I wrote the repair shop about a bent scratch inside its gate and brought the test frame. It should register over the metal when you lay it in the correct orientation."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Check the embossed shutter ring",
+          "title": "Common shutter ring",
+          "detail": "The ring was fitted across the production run. Turn over the camera to inspect its frame window."
+        },
+        {
+          "id": "mechanism",
+          "action": "Open the camera back and trace the gate scratch",
+          "title": "Scratched film gate",
+          "detail": "The metal has one diagonal kink beside the lower right corner. The test frame is translucent enough to register over it."
+        },
+        {
+          "id": "match",
+          "action": "Check the scratch against the overlapping test frame",
+          "title": "Test frame and repair docket",
+          "detail": "The two kinks collapse to a single line. The docket clipped to the test frame carries Anya's repair-return signature."
+        }
+      ],
+      "contradictions": [
+        "Noel processed the film. His drying streak would move with the paper, and the return docket belongs to Anya.",
+        "‘Show the scratch in the metal and the same shape on the developed frame,’ Anya says. ‘You need both sides of the match.’",
+        "Open the back before aligning the test frame."
+      ],
+      "title": "The Folding Camera",
+      "arrival": "The last picture in an envelope is streaked. One claimant developed it, and the other loaded the test roll.",
+      "familiar": "A streak on the print",
+      "familiarDetail": "The darkroom envelope is shared. A streak may be a drying mark or a fault inside the camera.",
+      "letter": "Anya takes the camera back to the repair shop. She keeps the first streaked print as a reminder of the morning she took it."
+    },
+    {
+      "id": "keys",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "Which two teeth clear the wards?",
+            "Why are two unused profiles on the ring?"
+          ],
+          "answers": [
+            "The short square clears the ledge. The deep step drops behind the inner ward. Test both against the plate before trying the carbon.",
+            "Ari brought them as spares. They stayed on the ring to carry back to the shop."
+          ],
+          "name": "May Lind",
+          "role": "The workshop custodian",
+          "claim": "The set was issued to me when our furnace room was secured. I cut the short square and deep step in different stock, and kept the carbon impression with my return slip."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "What do the blanks look like?",
+            "Who may take them from the shelf?"
+          ],
+          "answers": [
+            "Long square and a shallow step, the two standard profiles. I hadn't trimmed them to the wards yet.",
+            "The custodian signs the set back into the furnace book. I can take it to the vice only while she's there."
+          ],
+          "name": "Ari Holt",
+          "role": "The locksmith's assistant",
+          "claim": "I stamped our ring code and brought two blanks down. I took the set to file a spare and must have put it on the transit shelf."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Fan out the four keys and look at their teeth",
+          "title": "Four different profiles",
+          "detail": "There are two square ends and two stepped ends. The lock has a short square ledge and a deep inner ward."
+        },
+        {
+          "id": "mechanism",
+          "action": "Test the two selected teeth against the ward plate",
+          "title": "Two teeth clear the wards",
+          "detail": "The short square seats against the ledge. The deep step drops behind the second ward. The spares jam at the surface."
+        },
+        {
+          "id": "match",
+          "action": "Press both working teeth onto the carbon copy",
+          "title": "May's signed impression",
+          "detail": "Both tooth outlines fill May's carbon silhouettes without overspill. Her name is on the corresponding return slip."
+        }
+      ],
+      "contradictions": [
+        "Ari made the spares and uses the shop stamp. May is the custodian on the return slip for the working pair.",
+        "‘The ring goes out with blanks,’ May says. ‘I need the two teeth that work and the copy they fit.’",
+        "Fit the two working profiles to the plate first."
+      ],
+      "title": "The Warded Keys",
+      "arrival": "A bunch of four brass keys rattles in a dish. Two locksmiths recognise the stamped ring.",
+      "familiar": "Locksmith's stamped ring",
+      "familiarDetail": "The shop stamps the same code on every work ring it issues.",
+      "letter": "May locks the furnace room and files the carbon. Ari takes just the two blanks upstairs, leaving the working keys on their signed hook."
+    },
+    {
+      "id": "suitcase",
+      "visitors": [
+        {
+          "id": "a",
+          "questions": [
+            "Did anyone authorise you to collect it?",
+            "What was packed under the tray?"
+          ],
+          "answers": [
+            "I have a route manifest from the depot, but the recipient line was left blank after the tag tore.",
+            "I only wrapped the buckles. The stage crew sealed everything inside."
+          ],
+          "name": "Lev Brook",
+          "role": "The overnight carrier",
+          "claim": "The trunk came on my van. I need it to finish the delivery. Our dispatch list tells me which theatre was last."
+        },
+        {
+          "id": "b",
+          "questions": [
+            "Which records back up the hidden copy?",
+            "Why would the carrier know so much about it?"
+          ],
+          "answers": [
+            "The green thermos release records Eli's bakery handover. Ruth appended the wrist-kit slip to the red marionette release. Both copies are already in your archive.",
+            "Lev carried it between theatres and was paid by the mile. At the last stop the company named me as its receiver."
+          ],
+          "name": "Elsie Holt",
+          "role": "The touring stagehand",
+          "claim": "I am on the old touring handover. The trunk was tagged for me by the company. Ruth put a duplicate under the tray because bits go missing on the road."
+        }
+      ],
+      "findings": [
+        {
+          "id": "trace",
+          "action": "Undo both scuffed buckles",
+          "title": "Intact touring buckles",
+          "detail": "The buckles have been wrapped for shipping. On the other side a little recess betrays a movable tray."
+        },
+        {
+          "id": "mechanism",
+          "action": "Lift the tray by its recessed handle",
+          "title": "Return flap under the tray",
+          "detail": "A brass catch releases a narrow compartment. Two folded accession slips are inside."
+        },
+        {
+          "id": "match",
+          "action": "Open the compartment and read both slips",
+          "title": "Elsie's handover copies",
+          "detail": "The handover names Elsie Holt. Below it are references to the green thermos: A.R. → M.R. → E.N., and the red marionette's wrist kit. Bring both issued receipts from the archive."
+        }
+      ],
+      "contradictions": [
+        "The route manifest lets Lev carry a load. The signed handover under the tray names Elsie as its receiver.",
+        "‘Those are real receipts, but look at the two references under the tray,’ Elsie says. ‘One is bakery metal, the other a puppet's wrist kit.’",
+        "‘The copies in your archive need a reference,’ Elsie says. ‘That reference is behind the brass catch under the tray.’"
+      ],
+      "title": "The Untagged Suitcase",
+      "arrival": "Dawn catches two scraped buckles. A carrier and a stagehand recognise a touring trunk with its tag torn away.",
+      "familiar": "Route manifest",
+      "familiarDetail": "The carrier's route ends at the theatre but has no authorised recipient.",
+      "letter": "Elsie ties a new tag over the old scrape. Lev helps lift the suitcase across the threshold, then leaves empty-handed for the first tram. The tiger's brass ring falls back against the door."
+    }
+  ]
+}

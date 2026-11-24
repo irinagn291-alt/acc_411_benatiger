@@ -1,0 +1,101 @@
+brand|Benatiger|Benatiger|Benatiger
+unmute|Turn sound on|開啟音效|تشغيل الصوت
+mute|Turn sound off|關閉音效|كتم الصوت
+close|Close archive|關閉檔案室|إغلاق الأرشيف
+archive|Night board & archive|夜班看板與檔案|لوحة الليالي والأرشيف
+bell|Ring the brass bell|按響黃銅鈴|اقرع الجرس النحاسي
+arrival_prompt|Lost Property. Night service. Ring once and wait by the lamp.|失物招領，夜間值勤。按一聲鈴，在燈下等候。|مكتب المفقودات. خدمة ليلية. اقرع الجرس مرة وانتظر عند المصباح.
+inspect|Bring the item to the bench|把物件移到工作檯|انقل الغرض إلى طاولة الفحص
+room|Reception|接待室|الاستقبال
+bench|Workbench|工作檯|طاولة الفحص
+receipt|Receipt|收據|إيصال التسليم
+letter|Letter|信件|الرسالة
+issued|Release recorded|已登記交還|تم توثيق التسليم
+closed|The bureau is closed|失物招領處已打烊|أُغلق المكتب
+ending|All twelve things have gone home. The lamp goes dark, and the brass tiger on the door catches the first light.|十二件失物都已回家。桌燈熄滅，門上的黃銅虎迎上第一道晨光。|عادت الأغراض الاثنا عشر إلى أصحابها. انطفأ المصباح، فالتقط النمر النحاسي على الباب أول ضوء للفجر.
+drawer|Open the intake drawer|打開收件抽屜|افتح درج الوارد
+review|Revisit the conversations|重讀訪客對話|عُد إلى المحادثات
+open_copy|Read the filed copy|閱讀存檔副本|اقرأ النسخة المحفوظة
+in_progress|Open case · resume|調查中 · 繼續|قضية مفتوحة · متابعة
+in_drawer|Ready in the drawer|已入收件抽屜|جاهز في الدرج
+locked|Awaiting prior releases|等待前案結案|بانتظار تسليم الأغراض السابقة
+objection|The claimant objects|認領人提出異議|اعتراض على التسليم
+front|Face|正面|الوجه الأمامي
+back|Turn over|翻到背面|اقلب الغرض
+turn_hint|Turn the item to find the next point of interest.|翻動物件，找出下一個可查的位置。|اقلب الغرض للعثور على الموضع التالي للفحص.
+listen_box|Play the four notes|播放四個音符|شغّل النغمات الأربع
+listen_tick|Run the metronome|啟動節拍器|شغّل ضابط الإيقاع
+notes_box|G · B · D · B   (the last note comes after a pause)|G · B · D · B（最後一音前有停頓）|صول · سي · ري · سي (تسبق النغمة الأخيرة وقفة)
+notes_tick|1 · 2 · 3 · [pause] · 4 · 5|1 · 2 · 3 ·［停頓］· 4 · 5|١ · ٢ · ٣ · [وقفة] · ٤ · ٥
+notebook|Observations|觀察筆記|الملاحظات
+empty_notebook|Inspect a detail to add it to the notebook.|檢查物件的細節，才能把發現寫進筆記。|افحص إحدى التفاصيل لتدوينها في دفتر الملاحظات.
+question_limit|One question for this visitor|本位訪客只能問一題|سؤال واحد لهذا الزائر
+recipient|Release to|交還給|التسليم إلى
+evidence|Evidence cards|證物卡|بطاقات الأدلة
+archive_copies|Copies from the archive|檔案中的收據副本|نسخ من الأرشيف
+empty_slot|Insert a card|插入卡片|أدخل بطاقة
+empty_owner|Choose a claimant|選擇一位認領人|اختر صاحب المطالبة
+cards|Read the available cards|閱讀可用卡片|اقرأ البطاقات المتاحة
+choose_card|Attach or remove a card|附上或取下卡片|أرفق بطاقة أو أزلها
+attach|Attach|附上|أرفق
+detach|Remove|取下|أزل
+done|Back to the receipt|返回收據|العودة إلى الإيصال
+draft|Receipt preview|收據預覽|معاينة الإيصال
+stamp|Press the brass stamp|壓下黃銅印章|اضغط الختم النحاسي
+suitcase_hint|Look under the tray before releasing the case.|交還皮箱前，先檢查托盤底下。|افحص ما تحت الصينية قبل تسليم الحقيبة.
+teeth_hint|Fit two teeth to the warded lock. Compare depth before checking the fit.|選兩個齒形試配鎖孔。確認貼合前，先比較深度。|اختر سنين يناسبان تجاويف القفل. قارن العمق قبل التحقق من التطابق.
+tooth_0|Short square|短方齒|مربع قصير
+tooth_1|Long square|長方齒|مربع طويل
+tooth_2|Deep step|深階齒|درجة عميقة
+tooth_3|Shallow step|淺階齒|درجة ضحلة
+try_again|Still at the bench|仍需在工作檯查證|ما زال الغرض قيد الفحص
+teeth_wrong|The shallow step rides above the ward, and the long square bottoms out. Look for a short square and a deeper step.|淺階齒懸在擋片上，長方齒頂到了底。找短方齒和較深的階齒。|تعلو الدرجة الضحلة حاجز القفل ويصطدم المربع الطويل بالقاع. ابحث عن مربع قصير ودرجة أعمق.
+brace|Keep a thumb on the left pin|用拇指按住左邊的軸銷|ثبّت المسمار الأيسر بإبهامك
+feed|Slide a blank ticket between the jaws|把空白票送進鉗口|أدخل تذكرة فارغة بين فكي الخرامة
+box_wrong|The left pin lifts with the lid. Hold it down with your thumb before trying again.|左邊的軸銷跟著蓋子抬起來了。先用拇指按住，再試一次。|يرتفع المسمار الأيسر مع الغطاء. ثبّته بإبهامك ثم حاول مجدداً.
+punch_wrong|The stub has a little split in its cut. Feed a blank before squeezing, then look for the same split.|存根的缺口有一道分叉。先送入空白票再壓，然後找相同的分叉。|في قطع الكعب شق صغير. أدخل تذكرة فارغة قبل الضغط، ثم ابحث عن الشق نفسه.
+punch_setting|Choose the cut that matches the route stub.|選擇與路線存根吻合的缺口。|اختر القطع المطابق لكعب تذكرة الخط.
+square_cut|Square cut ■|方形缺口 ■|قطع مربع ■
+split_cut|Split cut ⌄|分叉缺口 ⌄|قطع مشقوق ⌄
+round_cut|Round cut ●|圓形缺口 ●|قطع دائري ●
+lantern_setting|Click the shutter into one of its three detents.|把色片轉到三個定位卡槽之一。|أدر المصراع إلى أحد مواضعه الثلاثة.
+amber|Amber · first stop|琥珀色 · 第一格|كهرماني · الموضع الأول
+green|Green · middle stop|綠色 · 中間格|أخضر · الموضع الأوسط
+blue|Blue · third stop|藍色 · 第三格|أزرق · الموضع الثالث
+lantern_wrong|First and middle stops light the painted side of the call sheet. Look for the third stop, where blue reaches the registration slit.|第一和第二格照到提示單的上色面。找第三格，讓藍光穿過對位縫。|ينير الموضعان الأول والأوسط الوجه المطلي من ورقة الإشارات. جرّب الثالث كي يصل الضوء الأزرق إلى شق المحاذاة.
+metronome_setting|Which beat arrives after the long gap?|哪一下是在較長的空拍之後？|أي ضربة تأتي بعد الفجوة الطويلة؟
+beat_two|Second beat|第二下|الضربة الثانية
+beat_three|Third beat|第三下|الضربة الثالثة
+beat_four|Fourth beat|第四下|الضربة الرابعة
+metronome_wrong|Follow the longer gap on the strip. The delayed strike is the first tick after it.|找出節拍列中較長的空隙。延遲的是空隙之後第一下。|اتبع الفجوة الأطول على الشريط. الضربة المتأخرة هي التي تليها مباشرة.
+camera_setting|Move the translucent test frame until both scratches overlap.|移動半透明試拍片，讓兩道刮痕重疊。|حرّك إطار الاختبار الشفاف حتى يتطابق الخدشان.
+shift_left|Shift frame left|把底片移左|أزح الإطار يساراً
+align|Centre frame in the gate|把底片對準片窗中央|وسّط الإطار في نافذة الفيلم
+shift_right|Shift frame right|把底片移右|أزح الإطار يميناً
+camera_wrong|Two scratches are still visible. At the correct registration the bend in the line covers itself.|畫面仍有兩道刮痕。定位正確時，兩處折角會重合。|ما زال خدشان ظاهرين. عند المحاذاة الصحيحة ينطبق انحناء الخط على نظيره.
+fold_objection|Keep objection in the notebook|把異議收進筆記|احفظ الاعتراض في الدفتر
+read_objection|Read the earlier objection|重讀先前的異議|اقرأ الاعتراض السابق
+close_notebook|Close the notebook|關閉筆記|أغلق دفتر الملاحظات
+camera_align_short|Align the two scratches|對齊兩道刮痕|حاذِ الخدشين
+camera_retry_short|Two scratches are still visible.|仍看得到兩道刮痕。|ما زال خدشان ظاهرين.
+keys_retry_short|The teeth do not seat.|齒形無法落入鎖孔。|الأسنان لا تستقر في القفل.
+why_mismatch|Why the pieces do not match|查看不吻合的原因|سبب عدم التطابق
+close_detail|Close the detail|關閉詳細說明|أغلق التفاصيل
+motion_pin|Hold the loose pin, then pull up along the hinge.|按住鬆動的軸銷，沿鉸鏈往上拉。|ثبّت الدبوس المرتخي ثم اسحب إلى أعلى بمحاذاة المفصلة.
+motion_camera|Catch the back latch and pull it open.|勾住後蓋扣，將它拉開。|أمسك مزلاج الظهر واسحبه ليفتح.
+motion_tray|Grip the tray pull and draw it out.|握住托盤把手，將它拉出。|أمسك مقبض الصينية واسحبها.
+motion_film|Slide the film until both scratches meet.|滑動底片，讓兩道刮痕重合。|حرّك الفيلم حتى يتطابق الخدشان.
+motion_pull|Catch the paper edge and pull it free.|抓住紙的邊緣，將紙抽出。|أمسك حافة الورقة واسحبها للخارج.
+motion_return|The catch slipped back. Grip the marked part again.|扣件滑回原位。再抓住標示處。|عاد المزلاج إلى موضعه. أمسك الجزء المعلَّم مجدداً.
+motion_touch_guide|Grip the part marked on the object.|抓住物件上標示的部位。|أمسك بالجزء المعلَّم على القطعة.
+motion_slip|The paper slipped back. Pull it a little farther.|紙滑回去了。再往外拉一點。|انزلقت الورقة إلى الداخل. اسحبها مسافة أطول قليلاً.
+motion_offset|Still two marks. Adjust the film and release where they meet.|仍有兩道痕跡。調整底片，重合時放手。|ما زال الخدشان منفصلين. حرّك الفيلم واتركه عند التطابق.
+motion_second_clasp|One clasp released. The other is still shut.|一側扣件已鬆開，另一側仍扣著。|تحرّر مزلاج واحد. الآخر ما زال مغلقاً.
+motion_filed|Observation added to the notebook.|觀察已記入筆記。|أُضيفت الملاحظة إلى الدفتر.
+motion_turn|Draw a finger across the object to turn it.|用手指橫劃，轉動物件。|مرّر إصبعك عرضياً لتدوير القطعة.
+motion_note_title|Repair slip|修理便條|ورقة الإصلاح
+motion_note_match|The same signature is on the claim form.|認領表上有同一個簽名。|التوقيع نفسه موجود في استمارة المطالبة.
+motion_manifest|Delivery references|交付參照|مراجع التسليم
+motion_stamp|Pull the brass stamp down onto the receipt.|把黃銅印章往下拉，壓到收據上。|اسحب الختم النحاسي إلى أسفل فوق الإيصال.
+proof_help|How to link the evidence|如何搭配證據|طريقة ربط الأدلة
+statement|Statement|證詞|إفادة

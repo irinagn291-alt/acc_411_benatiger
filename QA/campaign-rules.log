@@ -1,0 +1,22 @@
+PASS en-GB, en-US, zh-Hant, ar · 12 cases and 75 interface strings each
+PASS box · weak reason, wrong recipient, sufficient reason, unique release
+PASS umbrella · weak reason, wrong recipient, sufficient reason, unique release
+PASS thermos · weak reason, wrong recipient, sufficient reason, unique release
+PASS punch · weak reason, wrong recipient, sufficient reason, unique release
+PASS mittens · weak reason, wrong recipient, sufficient reason, unique release
+PASS glasses · weak reason, wrong recipient, sufficient reason, unique release
+PASS metronome · weak reason, wrong recipient, sufficient reason, unique release
+PASS lantern · weak reason, wrong recipient, sufficient reason, unique release
+PASS puppet · weak reason, wrong recipient, sufficient reason, unique release
+PASS camera · weak reason, wrong recipient, sufficient reason, unique release
+PASS keys · weak reason, wrong recipient, sufficient reason, unique release
+PASS suitcase · weak reason, wrong recipient, sufficient reason, unique release
+PASS campaign with question choices -1/-1 · 12 releases and original archival pair
+PASS campaign with question choices -1/0 · 12 releases and original archival pair
+PASS campaign with question choices -1/1 · 12 releases and original archival pair
+PASS campaign with question choices 0/-1 · 12 releases and original archival pair
+PASS campaign with question choices 0/0 · 12 releases and original archival pair
+PASS campaign with question choices 0/1 · 12 releases and original archival pair
+PASS campaign with question choices 1/-1 · 12 releases and original archival pair
+PASS campaign with question choices 1/0 · 12 releases and original archival pair
+PASS campaign with question choices 1/1 · 12 releases and original archival pair
